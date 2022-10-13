@@ -106,6 +106,7 @@ Sources used for the creation of the frontend, backend, and game are found here
 - [This](https://react-unity-webgl.dev/) is React-Unity-WebGL and it's documentation, the React package that allows for Unity WebGL compatability and communication
 - Video's 21, 22 and 23 in [this playlist](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d) for React routing
 - [This bit of code](https://github.com/jeffreylanters/react-unity-webgl/issues/22#issuecomment-1260546499) by a React-Unity-WebGL user for fixing a bug on Unity's end when navigating to other pages on a site hosting a Unity WebGL game 
+- [This video](https://www.youtube.com/watch?v=roxC8SMs7HU) and [this video](https://www.youtube.com/watch?v=75aTZq-qoZk&t=826s), both for setting up a Google Authentication system
 
 #### .NET
 - [This video](https://www.youtube.com/watch?v=Fbf_ua2t6v4) and [this video](https://www.youtube.com/watch?v=Tj3qsKSNvMk), both for learning how to build a RESTful API
