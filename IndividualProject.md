@@ -41,9 +41,7 @@ I'd already used the other recommendation, .NET/C#, in both Semesters 1 and 2 fo
 After a few weeks of developing the game, and doing some research on Java, I changed my mind on this. I had already spent a good amount of time on the game,
 so I had some catching up to do for the rest of the project. It's because of this that I ended up going with .NET instead. I was gonna need my time, 
 since I didn't just have a website/frontend and API/backend to build from scratch, but also a reasonably big game to make.
-My previous experience with .NET would make developing the backend a whole lot quicker, so that's what ended up being used.
-
-I should also quickly mention the game. Since it's made in Unity, the scripts are written in C#. This is the standard language Unity uses, so I stuck with it.
+My previous experience with .NET would make developing the backend a whole lot quicker, so that's what ended up being used. I should also quickly mention the game. Since it's made in Unity, the scripts are written in C#. This is the standard language Unity uses, so I stuck with it. But this was another reason for me to use .NET for my backend API, since I could use the same save data classes I used in the game without issue. This made some user stories a lot easier to realise, and ended up saving me a lot of time.
 
 ## Documentation
 
