@@ -98,11 +98,11 @@ Put them here you dingus
 
 ## Quality Assurance
 
-## CI/CD
+## Release Management
 
 ## Sources
 
-### Project Sources
+### General Sources
 
 Sources used for the creation of the frontend, backend, and game are found here
 
@@ -124,7 +124,7 @@ Sources used for the creation of the frontend, backend, and game are found here
 - Video's 1 through 6 in [this playlist](https://www.youtube.com/playlist?list=PLTRrSFerr98V6U-vZeDbA2naLdCbLYnfE), all for creating a turn based combat system
 - [This video](https://www.youtube.com/watch?v=r6zhaguEzs8&t=514s) for enemy movement
 
-### Asset Sources
+### Game Asset Sources
 Most of the models, textures, and animations, in addition to all music and SFX used in the game were directly ripped from the following games:
 -	Persona 3 FES (PlayStation 2)
 -	Persona 3 Portable (PlayStation Portable)
