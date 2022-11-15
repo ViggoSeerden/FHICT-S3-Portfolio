@@ -92,6 +92,13 @@ Below are two parts of a C4 model made for this project. The context model and t
 
 Put them here you dingus
 
+## Agile
+
+## UI/UX
+
+## Quality Assurance
+
+## CI/CD
 
 ## Sources
 
