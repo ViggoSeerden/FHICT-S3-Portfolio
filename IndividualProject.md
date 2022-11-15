@@ -5,18 +5,18 @@ Student no. 491216
 
 ## Table of Contents
 
-- [Project Description](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#project-description)
-- [Technology Stack](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#technology-stack)
-- [Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#documentation)
-  - [User Stories](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#user-stories)   
-  - [C4 Model](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#c4-model)
--  [UI/UX](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#uiux)
--  [Quality Assurance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#quality-assurance)
--  [Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#release-management)
--  [Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#professionalism)
--  [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#sources)
-   - [General Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#general-sources)
-   - [Game Asset Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#game-asset-sources)
+- [Project Description](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#project-description)
+- [Technology Stack](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#technology-stack)
+- [Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#documentation)
+  - [User Stories](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#user-stories)   
+  - [C4 Model](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#c4-model)
+-  [UI/UX](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#uiux)
+-  [Quality Assurance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#quality-assurance)
+-  [Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#release-management)
+-  [Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#professionalism)
+-  [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#sources)
+   - [General Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#general-sources)
+   - [Game Asset Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#game-asset-sources)
 
 ## Project Description
 For this project I decided to make a game playable on a website within your browser. 
