@@ -5,6 +5,19 @@ Student no. 491216
 
 ## Table of Contents
 
+- [Project Description](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#project-description)
+- [Technology Stack](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#technology-stack)
+- [Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#documentation)
+  - [User Stories](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#user-stories)   
+  - [C4 Model](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#c4-model)
+-  [UI/UX](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#uiux)
+-  [Quality Assurance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#quality-assurance)
+-  [Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#release-management)
+-  [Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#professionalism)
+-  [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#sources)
+   - [General Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#general-sources)
+   - [Game Asset Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/edit/main/IndividualProject.md#game-asset-sources)
+
 ## Project Description
 For this project I decided to make a game playable on a website within your browser. 
 This game and the website the game is on will communicate with each other and can influence the contents displayed. 
@@ -55,7 +68,6 @@ First some quick terminology on the customers in the user stories:
 
 The user stories are as follows:
 
-
 - US1: As a website visitor, I want to be able to play the game under any condition, so I don’t need an account to play.
 - US2: As a website visitor, I want to be able to make an account so I can save my in-game progress.
 - US3: As a website user, I want to be able to change some account details and settings so I can always change them when I need to.
@@ -74,8 +86,12 @@ The user stories are as follows:
 - US16: As a website visitor, I want the site and the game’s written (and spoken?) language to be English so I can understand what’s being shown (or told?) to me.
 - US17: As a website user, I want my data and save file to be properly protected so no one can steal my data or tamper with my progress.
 
+To keep track of the progression of the user stories listed above, as well as other tasks, I used a Trello board as seen below:
+
+picture
+
 #### Prioritization
-I have prioritized these user stories based on importance using the MoSCoW method:
+I have prioritized these user stories based on urgency and neccessity using the MoSCoW method:
 
 | Must Have  | Should Have | Could Have | Won't Have |
 | ---------- | ----------- | ---------- | ---------- |
@@ -88,17 +104,25 @@ I have prioritized these user stories based on importance using the MoSCoW metho
 
 ### C4 Model
 
-Below are two parts of a C4 model made for this project. The context model and the Container model.
+Below are two parts of a C4 model made for this project, those being the context model and the container model.
 
-Put them here you dingus
-
-## Agile
+picture
 
 ## UI/UX
 
 ## Quality Assurance
 
 ## Release Management
+
+picture
+
+## Professionalism
+
+Throughout the semester, students are expected to show the teachers their work and ask for feedback on what they've made. Students can, of course, also reach out to teachers when a question arises. No matter the outcome or conclusion of one of these conversations, it's important to document them using Feedpulse on Canvas for possible future reference. This process is also one of the eight learning outcomes. I've shown my work on several occasions to the teachers, and have documented these conversations like expected. An example of this can be found here:
+
+picture
+
+More examples can be found on Canvas.
 
 ## Sources
 
