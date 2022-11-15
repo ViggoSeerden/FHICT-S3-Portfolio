@@ -10,25 +10,26 @@ This is my portfolio for the Fontys HBO ICT Software Course in the third semeste
 
 ### 2. You use software tooling and methodology that continuously monitors and improve the software quality during software development.
 #### Proof:
-- [Individual Project Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md)
+- [Individual Project Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#quality-assurance)
 - [Research Reports]
 
 ### 3. You choose and implement the most suitable agile software development method for your software project.
 #### Proof:
-- [Individual Project Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md)
+- [Individual Project Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#agile)
 - [Group Project Documentation]
 
 ### 4. You design and implement a (semi)automated software release process that matches the needs of the project context.
 #### Proof:
-- [Individual Project Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md)
+- [Individual Project Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#release-management)
 
 ### 5. You recognize and take into account cultural differences between project stakeholders and ethical aspects in software development.
 #### Proof:
+- [Individual Project Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md)
 - [Research Reports]
 
 ### 6. You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques.
 #### Proof:
-- [Individual Project Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md)
+- [Individual Project Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#quality-assurance)
 
 ### 7. You analyze and describe simple business processes that are related to your project.
 #### Proof:
@@ -36,7 +37,7 @@ This is my portfolio for the Fontys HBO ICT Software Course in the third semeste
 
 ### 8. You act in a professional manner during software development and learning.
 ##### Proof:
-- [Individual Project Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md)
+- [Individual Project Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#feedback)
 - [Group Project Documentation]
 
 
