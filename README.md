@@ -29,7 +29,7 @@ This is my portfolio for the Fontys HBO ICT Software Course in the third semeste
 
 ### 6. You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques.
 #### Proof:
-- [Individual Project Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#quality-assurance)
+- [Individual Project Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#documentation)
 
 ### 7. You analyze and describe simple business processes that are related to your project.
 #### Proof:
