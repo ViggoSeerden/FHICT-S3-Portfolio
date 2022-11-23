@@ -76,7 +76,7 @@ Finally, this back-end is connected to an SQL database. I access and alter the d
 ## Documentation
 
 ### User Stories
-Below are the user stories I made. These are for the website, not for the game, since the game isn't a required product for this semester.
+Below are the user stories I made. These are for the website, not for the game, since the game isn't a required product for this semester. I chose to write user stories instead of requirements due to them being more flexible compared to requirements.
 First some quick terminology on the customers in the user stories:
 
 - The website visitor is just that: Someone visiting the website who doesn't have an account.
