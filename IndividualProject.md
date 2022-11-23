@@ -2,21 +2,28 @@
 ### By Viggo Seerden 
 Student no. 491216
 
+![tartarussimlogo](https://user-images.githubusercontent.com/100349697/203649141-82c8d347-ebd5-444a-acef-820b5f7d6168.png)
 
 ## Table of Contents
 
 - [Project Description](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#project-description)
-- [Technology Stack](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#technology-stack)
+  - [Technology Stack](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#technology-stack)
 - [Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#documentation)
   - [User Stories](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#user-stories)   
   - [C4 Model](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#c4-model)
--  [UI/UX](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#uiux)
--  [Quality Assurance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#quality-assurance)
--  [Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#release-management)
--  [Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#professionalism)
--  [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#sources)
-   - [General Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#general-sources)
-   - [Game Asset Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#game-asset-sources)
+- [UI/UX](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#uiux)
+- [Quality Assurance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#quality-assurance)
+  - [Code Analysis](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#code-analysis)
+  - [Testing](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#testing)
+  - [Performance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#performance)
+  - [Security](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#security)  
+- [Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#release-management)
+  - [Version Control](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#version-control)
+  - [Branching](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#branching)
+  - [CI/CD](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#cicd)
+- [Ethics](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#et)
+- [Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#professionalism)
+- [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#sources)
 
 ## Project Description
 For this project I decided to make a game playable on a website within your browser. 
@@ -34,12 +41,12 @@ so these won’t block your view. There’s a lot of numbers involved for a lot 
 so adding a sort of game guide for lost players to the website would be a good idea too. 
 I could also allow for players to see other players’ progress, and possibly even create a system where players could interact with each other.
 
-To give each player a way to save their own progression, I’ve made a saving system in Unity that saves a players’ progress to a JSON file. 
+To give each player a way to save their own progression, I made a saving system in Unity that saves a players’ progress to a JSON file. 
 The contents of this file can easily be saved to an external SQL database that both the game and the website can access. 
 These save files can also be encrypted to prevent anyone from cheating and manually altering the save file.
 
-## Technology Stack
-This project (as of now) consists of a React frontend, a .NET backend, and an SQL database. My choices for these options are as follows:
+### Technology Stack
+This project (as of now) consists of two React frontends, one of which is an admin frontend, a .NET backend, and an SQL database. My choices for these options are as follows:
 
 For the frontend, I chose to use React.JS. Personally, I've never worked with a JavaScript-based frontend (or backend, for that matter), 
 so I had no experience or knowledge about any possible option. React, along with Vue and Angular, where the example/recommended options listed on Canvas, 
@@ -49,12 +56,22 @@ a package for React that gave me everything I'd need, with a clear,
 straight to the point documentation that even a newcomer like me could understand on it's installation, uses and functions. Aside from this, 
 React was the only one I'd heard of before, and it was often recommended by others, so this choice was easy for me to make.
 
+Below is a picture of the frontend/website:
+
+<img width="941" alt="site" src="https://user-images.githubusercontent.com/100349697/203651773-c6737cf1-4e6f-4d63-98b4-6f2b70313b26.png">
+
 For the backend, I originally wanted to go with Java. Like with the frontend, I looked at the recommendations on Canvas for this one. 
 I'd already used the other recommendation, .NET/C#, in both Semesters 1 and 2 for pretty much everything, so I thought it'd be nice to learn another language.
 After a few weeks of developing the game, and doing some research on Java, I changed my mind on this. I had already spent a good amount of time on the game,
 so I had some catching up to do for the rest of the project. It's because of this that I ended up going with .NET instead. I was gonna need my time, 
 since I didn't just have a website/frontend and API/backend to build from scratch, but also a reasonably big game to make.
-My previous experience with .NET would make developing the backend a whole lot quicker, so that's what ended up being used. I should also quickly mention the game. Since it's made in Unity, the scripts are written in C#. This is the standard language Unity uses, so I stuck with it. But this was another reason for me to use .NET for my backend API, since I could use the same save data classes I used in the game without issue. This made some user stories a lot easier to realise, and ended up saving me a lot of time.
+My previous experience with .NET would make developing the backend a whole lot quicker, so that's what ended up being used. I should also quickly mention the game. Since it's made in Unity, the scripts are written in C#. This is the standard language Unity uses, so I stuck with it. But this was another reason for me to use .NET for my backend API, since I could use the same save data classes and even some logic that I used in the game without issue. This made some user stories a lot easier to realise, and ended up saving me a lot of time.
+
+Below is a picture of the API's Swagger page:
+
+<img width="941" alt="swagger" src="https://user-images.githubusercontent.com/100349697/203651788-a0f4b355-36d3-4c54-bb5c-404de9b91760.png">
+
+Finally, this back-end is connected to an SQL database. I access and alter the data in there using Entity Framework as my ORM of choice in my back-end. This is due to past expecience with it from my group project in semester 2, and also due to a good amount of recommendations online after some quick research. This back-end is currently only available locally on my laptop, where I use SQL Server to access it.
 
 ## Documentation
 
@@ -88,47 +105,102 @@ The user stories are as follows:
 
 To keep track of the progression of the user stories listed above, as well as other tasks, I used a Trello board as seen below:
 
-picture
+<img width="853" alt="trello" src="https://user-images.githubusercontent.com/100349697/203642404-81dc53ed-580b-4d45-9bdf-01a470eec58c.png">
 
 #### Prioritization
 I have prioritized these user stories based on urgency and neccessity using the MoSCoW method:
 
 | Must Have  | Should Have | Could Have | Won't Have |
 | ---------- | ----------- | ---------- | ---------- |
-| US1        | US5         | US6        |            |
-| US2        | US8         | US7        |            |
-| US3        | US9         | US11       |            |
-| US4        | US10        | US12       |            |
-| US16       | US14        | US13       |            |
-| US17       |             | US15       |            |
+| US1        | US5         | US3        | US7        |
+| US2        | US8         | US6        | US13       |
+| US4        | US9         | US11       |            |
+| US16       | US10        | US12       |            |
+| US17       | US14        | US15       |            |
 
 ### C4 Model
 
 Below are two parts of a C4 model made for this project, those being the context model and the container model.
 
-picture
+Context:
+
+![context](https://user-images.githubusercontent.com/100349697/203642356-7dcecb9f-1935-400d-9a5c-259a307baa73.png)
+
+Container:
+
+![container](https://user-images.githubusercontent.com/100349697/203642380-8b2937ee-4890-4935-9f4a-c00d620a7dc5.png)
 
 ## UI/UX
 
 ## Quality Assurance
 
+### Code Analysis
+
+### Testing
+
+Currently, I have written a few unit and integration tests for my back-end through two MSTest projects in the same solution as my back-end. 
+
+The unit tests test the save data alteration I do in my back-end's service classes, which is pure logic. An example can be found below:
+
+<img width="564" alt="unit test" src="https://user-images.githubusercontent.com/100349697/203649883-61447b46-c04d-4d5f-89c3-50d1b0d439fd.png">
+
+In this test, I simulate buying an item, and thus testing the logic behind adding this item to the save file, while also making sure to subtract the correct price from the users balance. This is all checked at the end. 
+
+My integration tests test the connection to the back-end, and by extension the database. An example can be found below:
+
+<img width="651" alt="integration test" src="https://user-images.githubusercontent.com/100349697/203650269-db2ff834-3632-4a38-9b86-6220f791e3a0.png">
+
+In this test, I simulate the process of adding a new user to the database. This is possible thanks to a NuGet package called Microsoft.AspNetCore.Mvc.Testing, which allows me to emulate an http request, which can then access the correct function in my controller, which executes the code like normal. I then check the response by first converting it to a more readable string format, and then checking if it contains the correct data. I also check for the correct status code.
+
+### Performance
+
+So far, I have checked my front-end performance using Google Lighthouse:
+
+<img width="301" alt="lighthouse" src="https://user-images.githubusercontent.com/100349697/203652520-90346590-e417-43cd-9b02-e40b8e42c15c.png">
+
+The performance score used to be much lower, due to me using a less optimal image file for the logo on the main page, which had such a heavy impact on the performance that the score used to be a 6.3. After fixing this, however, there remain few optimisations to be made.
+
+### Security
+
+My website relies on accounts to work properly, since I want every user to have their onw save file for the game. This means my website needed some form of authentication. I decided to use Sign in with Google for this. Being able to create accounts using Google means that pretty much most people nowadays can easily create an account due to Google's popularity. The Sign in with Google feature itself is also incredibly popular, which meant proper documentation was easily accessible. But I also chose this for security reasons. There's simply no way I can create a more secure login system by myself with my current knowledge and time constraints. Google is also a trusted name worldwide. There are a few downsides to this, though. First of all, any potential users would have to trust me not to misuse their data, which is easier said than done, however, since I have no plans of publicly launching this website, that's not a concern. But aside from that, I have to rely on Google to keep my system working as expected. If Google were to go down, even just temporarily, my webiste would lose over half of it's functionality. I'm not worried about this, since I doubt something as big as Google's servers and databases and whatnot would go down so easily, but it is a risk nonetheless. There's also the risk of Google deciding the Sign in with Google feature is no longer needed and pulling support for whatever reason, and them either creating a new system entirely, or not making one anymore at all. Replacing an existing system with a new one has already happened fairly recently with OAuth 2.0, whose days of support are numbered. But the chances of this happening anytime soon are incredibly low, so i'm not worried about that either. As you can see, to me, the good easily outweighs the bad, so I think Sign in with Google was a good option to go with.
+
+Aside from this, I have implemented a security measure within the Unity project, which gives me the option to encrypt save files before saving them. This is done using X-OR encryption.
+
 ## Release Management
 
-picture
+### Version Control
+
+I have been using GitHub repositories as my version control system of choice, one each for both front-ends and the back-end. Below is an example of one of my GitHub repositories:
+
+<img width="792" alt="github frontend" src="https://user-images.githubusercontent.com/100349697/203647973-12b4aa5d-4b2a-4f13-9ec2-b84d49cd229f.png">
+
+I chose to use GitHub due to my previous experience in using it during last semesters' group project, and due to it's popularity. 
+
+### Branching
+
+At the time of writing this, every repository has two branches: main (or master), and develop. The develop branch is for developing new features. This is done so that, in the case that something goes wrong, I always have a stable version to go back to on the main. The main branch only gets pushed to once I'm sure any changes I made work as intended on the develop branch. Once something gets pushed to the main, the CI/CD gets activated. More on that below.
+
+### CI/CD
+
+I have created a CI/CD pipeline using GitHub Actions for every repository. Below is an example of the back-end pipeline:
+
+<img width="581" alt="cicd" src="https://user-images.githubusercontent.com/100349697/203653353-a2fc35a9-c270-4b93-992c-bd488b8f1df4.png">
+
+The CI job (called build) currently builds and tests the projects, after which the CD job (called Docker) builds a Docker image and deploys it to my DockerHub repository. The CD job will only be executed if the CI job is wholly successful. This is only done once something gets pushed to the main branch. Currently, tests are only done in the back-end pipeline, since there are no front-end tests made yet. Furthermore, only the unit tests get executed, because the integration tests are currently impossible to successfully perform since my database is only locally available.
+
+## Ethics
 
 ## Professionalism
 
 Throughout the semester, students are expected to show the teachers their work and ask for feedback on what they've made. Students can, of course, also reach out to teachers when a question arises. No matter the outcome or conclusion of one of these conversations, it's important to document them using Feedpulse on Canvas for possible future reference. This process is also one of the eight learning outcomes. I've shown my work on several occasions to the teachers, and have documented these conversations like expected. An example of this can be found here:
 
-picture
+<img width="386" alt="feedpulse" src="https://user-images.githubusercontent.com/100349697/203642711-31b9f335-0571-4e3d-93e6-d1f69349a42d.png">
 
 More examples can be found on Canvas.
 
 ## Sources
 
-### General Sources
-
-Sources used for the creation of the frontend, backend, and game are found here
+Sources used for the creation of the frontend and backend are found here
 
 #### React
 - [This video](https://www.youtube.com/watch?v=dGcsHMXbSOA&list=PLDyQo7g0_nsVHmyZZpVJyFn5ojlboVEhE) was used for learning the basics of react
@@ -139,30 +211,3 @@ Sources used for the creation of the frontend, backend, and game are found here
 
 #### .NET
 - [This video](https://www.youtube.com/watch?v=Fbf_ua2t6v4) and [this video](https://www.youtube.com/watch?v=Tj3qsKSNvMk), both for learning how to build a RESTful API
-
-#### Unity
-- [This video](https://www.youtube.com/watch?v=aUi9aijvpgs) and [this video](https://www.youtube.com/watch?v=pSY7F6t_7Dw&t=2268s), both for creating a saving and loading system
-- [This video](https://www.youtube.com/watch?v=AoD_F1fSFFg&t=499s) for creating an item and inventory system/UI
-- [This video](https://www.youtube.com/watch?v=gHU5RQWbmWE) and [this video](https://www.youtube.com/watch?v=gI6G49t--RY&t=857s), both for random dungeon generation
-- [This video](https://www.youtube.com/watch?v=28JTTXqMvOU&t=262s) for creating a dynamic minimap
-- Video's 1 through 6 in [this playlist](https://www.youtube.com/playlist?list=PLTRrSFerr98V6U-vZeDbA2naLdCbLYnfE), all for creating a turn based combat system
-- [This video](https://www.youtube.com/watch?v=r6zhaguEzs8&t=514s) for enemy movement
-
-### Game Asset Sources
-Most of the models, textures, and animations, in addition to all music and SFX used in the game were directly ripped from the following games:
--	Persona 3 FES (PlayStation 2)
--	Persona 3 Portable (PlayStation Portable)
--	Persona 4 Golden (Steam/PC)
--	Persona 5 (PlayStation 3)
-
-This was accomplished using the following programs and websites:
-
-- [Amicitia (Site)](https://amicitia.miraheze.org/wiki/Main_Page), for information on file structures, formats, and ripping/conversion tools for the above listed games
-- [CriPakGUI](https://shrinefox.com/browse?post=cripakgui), for ripping game assets from Persona 5 and Persona 3 Portable
-- [Autodesk 3DS Max](https://www.autodesk.nl/products/3ds-max/overview?term=1-) and [GMD Maxscript Plugin](https://github.com/tge-was-taken/GFD-Studio), for ripping models, textures and animations from Persona 5 and converting them to a usable format
-- [Preappfile](https://github.com/tge-was-taken/preappfile), for ripping game files from Persona 4 Golden
-- [7zip](https://www.7-zip.org/), for ripping game files from Persona 3 FES
-- [Amicitia (Program)](https://github.com/tge-was-taken/Amicitia), for ripping models, textures and animations from Persona 4 Golden, Persona 3 Portable, and Persona 3 FES
-- [Noesis](https://richwhitehouse.com/index.php?content=inc_projects.php), for converting models, textures and animations from Persona 4 Golden, Persona 3 Portable and Persona 3 FES to usable formats
-- [The Sounds Resource](https://www.sounds-resource.com/), for getting the sound effects used in the above listed games 
-- [YouTube](https://www.youtube.com/) and [FLV2MP3](https://www.flv2mp3.by/), for getting the music used in the above listed games
