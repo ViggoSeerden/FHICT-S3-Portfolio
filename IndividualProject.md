@@ -180,7 +180,52 @@ I chose to use GitHub due to my previous experience in using it during last seme
 
 I have created a CI/CD pipeline using GitHub Actions for every repository. Below is an example of the back-end pipeline:
 
-<img width="581" alt="cicd" src="https://user-images.githubusercontent.com/100349697/203653353-a2fc35a9-c270-4b93-992c-bd488b8f1df4.png">
+```
+name: CI/CD
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  CI:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: 6.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+    - name: Build
+      run: dotnet build --no-restore
+    - name: Unit test
+      run: dotnet test ./TTSSimUnitTests/TTSSimUnitTests.csproj
+      
+  CD:
+    runs-on: ubuntu-latest
+    needs: [build]
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Login to registry
+        run: >
+          echo ${{ secrets.REGISTRY_PASSWORD }}
+          | sudo docker login
+          -u ${{ secrets.REGISTRY_USERNAME }} --password-stdin
+      
+      - name: Build image
+        run: >
+          sudo docker build . --file Dockerfile
+          --tag oggiv/fhict-s3-ttssim:backend
+      
+      - name: Push to registry
+        run: sudo docker push oggiv/fhict-s3-ttssim:backend
+```
 
 The CI job (called build) currently builds and tests the projects, after which the CD job (called Docker) builds a Docker image and deploys it to my DockerHub repository. The CD job will only be executed if the CI job is wholly successful. This is only done once something gets pushed to the main branch. Currently, tests are only done in the back-end pipeline, since there are no front-end tests made yet. Furthermore, only the unit tests get executed, because the integration tests are currently impossible to successfully perform since my database is only locally available.
 
