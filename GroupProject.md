@@ -15,10 +15,31 @@ Student no. 491216
 
 ## Project Description
 
-For company iO, we made a colleague tracker application for Android & iOS
+For company iO, we made a colleague tracker application for Android & iOS. In here, iO employees can keep track of where their colleagues are, should they need them for something. This means being able to see whether they're at home, or at one of their offices, and possibly even which floor or room they're in. You could also be able to see their availability through Outlook agendas. If you need a colleague, you can notify them, and you can also bookmark some colleagues for quick access. 
 
 ## Documentation
 
+I made several user stories for the project, which are listed below:
+
+- US1: As an iO staff member, I want to see whether my colleagues are working from home or the office so I know where to look if I need them
+- US2: As an iO staff member, I want to set my current availability in the app so that my colleagues know whether I’m busy and can reach out or not
+- US3: As an iO staff member, I want to be given a choice of whether I consent to sharing my location with others for my own privacy
+- US4: As an iO staff member, I want to see on what floor or in what room my colleagues currently are so I know exactly where to find them
+- US5: As an iO staff member, I want to have the ability to add the MAC-Addresses of my other devices so my location can be updated based on multiple sources
+- US6: As an iO staff member, I want to be able to search for specific colleagues in the app using name input or a selection of filters so I can find someone suitable    faster
+- US7: As an iO staff member, I want to be able to see the agenda of my colleagues so I can see their full availability
+US8: As an iO staff member, I want to be able to notify my colleagues so they know that I need them and that I’m looking for them
+US9: As an iO staff member, I want to be able to create my own profile page with a name, e-mail address, description and role/specialty so others know how to reach me and if I’m suitable for their request
+US10: As an iO staff member, I want to be able to see the profiles of my colleagues so I know where I can reach out to them, and whether their role suits my request
+US11: As an iO staff member, I want to be able to post an open request so that anyone with time can come and help
+US12: As an iO staff member, I want to be able to bookmark or favorite certain colleagues for easy access in the app should I need them multiple times in the future
+US13: As an iO staff member, I want to receive a notification when an unavailable colleague I need becomes available again
+US14: As an iO staff member, I want the app to be written in English so that everyone can use the app without a language barrier
+US15: As an iO staff member, I want the app to be compatible with both iOS and Android, so that everyone with one of those OS’s can use the app
+US16: As an iO staff member, I want the app to boot and load new pages in no more than 3 seconds to keep the workflow going smoothly
+US17: As an iO staff member, I want my data to be properly protected so no one has access to it.
+US18: As an iO staff member, I want to be able to refresh the data so I can check if any changes have been made to my colleagues statuses
+US19: As product owner, I want every staff member to be able to log into their account so that outsiders cannot access their data
 
 
 ## Agile
