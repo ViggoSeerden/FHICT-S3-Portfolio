@@ -174,11 +174,7 @@ I have been using GitHub repositories as my version control system of choice, on
 
 <img width="792" alt="github frontend" src="https://user-images.githubusercontent.com/100349697/203647973-12b4aa5d-4b2a-4f13-9ec2-b84d49cd229f.png">
 
-I chose to use GitHub due to my previous experience in using it during last semesters' group project, and due to it's popularity. 
-
-### Branching
-
-At the time of writing this, every repository has two branches: main (or master), and develop. The develop branch is for developing new features. This is done so that, in the case that something goes wrong, I always have a stable version to go back to on the main. The main branch only gets pushed to once I'm sure any changes I made work as intended on the develop branch. Once something gets pushed to the main, the CI/CD gets activated. More on that below.
+I chose to use GitHub due to my previous experience in using it during last semesters' group project, and due to it's popularity. As for branching, at the time of writing this, every repository has two branches: main (or master), and develop. The develop branch is for developing new features. This is done so that, in the case that something goes wrong, I always have a stable version to go back to on the main. The main branch only gets pushed to once I'm sure any changes I made work as intended on the develop branch. Once something gets pushed to the main, the CI/CD gets activated. More on that below.
 
 ### CI/CD
 
