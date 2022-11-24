@@ -208,7 +208,7 @@ jobs:
       
   CD:
     runs-on: ubuntu-latest
-    needs: [build]
+    needs: [CI]
     steps:
       - uses: actions/checkout@v3
       
@@ -227,7 +227,42 @@ jobs:
         run: sudo docker push oggiv/fhict-s3-ttssim:backend
 ```
 
-The CI job (called build) currently builds and tests the projects, after which the CD job (called Docker) builds a Docker image and deploys it to my DockerHub repository. The CD job will only be executed if the CI job is wholly successful. This is only done once something gets pushed to the main branch. Currently, tests are only done in the back-end pipeline, since there are no front-end tests made yet. Furthermore, only the unit tests get executed, because the integration tests are currently impossible to successfully perform since my database is only locally available.
+At the top of this file I specify when this pipeline gets triggered. This only happens on either a push to the main branch, or a pull request from the main branch. After this, the CI job starts. After specifying the OS to run on and the versions to use, I first call *dotnet restore* to restore the package dependencies for each project (this would be *npm ci* for the front-end). After that, I call *dotnet build* (or *npm run build* for front-end) to build the solution. If at any point during the building process an error occurs, this job fails. Warnings get a pass in the back-end pipeline, however in the front-end pipelines warnings get treated as errors, due to this being how React handles the building process. Finally, I call *dotnet test*, followed by the directory for my unit test project (this would be *npm test*), which, as the name suggests, runs the unit tests. These also have to succeed for this job to succeed as a whole.
+
+Next is the CD job. After once again specifying an OS, I first declare that this job will only run if the CI job is successful. There's no real point in deploying a broken version of my application. This is also why I chose to have my CI/CD process in one file, instead of two seperate files. This CD job deploys my application to DockerHub, which requires some authentication, so I first have to specify my DockerHub username and password. Since typing these directly in my pipeline would be foolish, so I used GitHub secrets for this. These are referenced by *REGISTRY_USERNAME* and *REGISTRY_PASSWORD*. After this, I build my Docker image, by using the Dockerfile in my repository. Finally, after specifying a tag, I push the created image to DockerHub. My front-ends and back-ends are all stored in the same repository under different tags.
+
+I decided to use Docker to deploy my projects after some recommendations from classmates. Below you can see my back-end Dockerfile:
+
+```
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
+WORKDIR /App
+COPY . ./
+RUN dotnet restore
+RUN dotnet publish -c Release -o out
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
+WORKDIR /App
+COPY --from=build-env /App/out .
+ENTRYPOINT ["dotnet", "TTSSimRESTAPI.dll"]
+```
+
+In this file I first copy everything, which is followed by *dotnet restore* for package dependencies. After that I use *dotnet publish* for building the project and publishing to a folder for deployment. This is finally followed by a few commands to build the actual Docker runtime image.
+
+And here's my Dockerfile used for my front-ends:
+
+```
+FROM node:lts-alpine
+RUN npm install -g http-server
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY . .
+RUN npm run build
+CMD [ "http-server", "dist" ]
+```
+
+This one does simillar things like installing the packages from package.json and building the projects, but I should note the *http-server* install and the creation of the *dist*, which is done to make the app run from Docker.
+
+Currently, tests are only done in the back-end pipeline, since there are no front-end tests made yet. Furthermore, only the unit tests get executed, because the integration tests are currently impossible to successfully perform since my database is only locally available.
 
 ## Ethics
 
@@ -243,12 +278,10 @@ More examples can be found on Canvas.
 
 Sources used for the creation of the frontend and backend are found here
 
-#### React
 - [This video](https://www.youtube.com/watch?v=dGcsHMXbSOA&list=PLDyQo7g0_nsVHmyZZpVJyFn5ojlboVEhE) was used for learning the basics of react
 - [This](https://react-unity-webgl.dev/) is React-Unity-WebGL and it's documentation, the React package that allows for Unity WebGL compatability and communication
 - Video's 21, 22 and 23 in [this playlist](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d) for React routing
-- [This bit of code](https://github.com/jeffreylanters/react-unity-webgl/issues/22#issuecomment-1260546499) by a React-Unity-WebGL user for fixing a bug on Unity's end when navigating to other pages on a site hosting a Unity WebGL game 
-- [This video](https://www.youtube.com/watch?v=roxC8SMs7HU) and [this video](https://www.youtube.com/watch?v=75aTZq-qoZk&t=826s), both for setting up a Google Authentication system
-
-#### .NET
+- [This bit of code](https://github.com/jeffreylanters/react-unity-webgl/issues/22#issuecomment-1260546499) by a React-Unity-WebGL user for fixing a bug on Unity's end   when navigating to other pages on a site hosting a Unity WebGL game 
+- [This video](https://www.youtube.com/watch?v=roxC8SMs7HU) and [this video](https://www.youtube.com/watch?v=75aTZq-qoZk&t=826s), both for setting up a Google           Authentication system
 - [This video](https://www.youtube.com/watch?v=Fbf_ua2t6v4) and [this video](https://www.youtube.com/watch?v=Tj3qsKSNvMk), both for learning how to build a RESTful API
+- [This Article](https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows) for containerising a .NET app for Docker
