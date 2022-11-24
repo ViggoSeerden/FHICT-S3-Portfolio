@@ -42,3 +42,6 @@ This is my portfolio for the Fontys HBO ICT Software Course in the third semeste
 
 
 ## Research Reports
+
+- [Security: Data Protection]
+- [Cultural Differences in Software]
