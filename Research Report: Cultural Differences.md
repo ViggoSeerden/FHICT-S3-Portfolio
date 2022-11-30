@@ -17,7 +17,7 @@ It's undeniable that software development is incredibly important in this day an
 
 First of all, I'll explain what these cultural differences are. Cultural differences are the as the name suggests, differences between different cultures. This can mean anything from spoken languages or dialects, their beliefs and religions, their morals and practices, and more. These tend to be unique to certain ethnic group. An umbrella term for these unique qualities is culture. An example is our own Dutch culture. Examples of the Dutch culture include our culinary staples like cheese, our fixation with sports like soccer/football and cycling, and our main religions being Roman Catholic and Protestant. Comparing these parts of our culture to, say, Greece, you'll see that they differ in these area's. For example, their cuisine is known for olive oil and wine, and their most popular religion being Christianity. These are cultural differences between The Netherlands and Greece. Obviously cultures don't differ in every aspect. We Dutch folk share our love of soccer with Greece. Cultures shouldn't be confused for stereotypes, however. Stereotypes tend to be an oversimplified image of something, while culture is a behavioral and moral pattern unique to an ethnic group. 
 
-## Why do cultural differences in software?
+## Why do cultural differences matter in software?
 
 You may be asking youself why these differences matter in the context of software development. The examples I gave above shouldn't matter in software development, right? While it is true that something like a culture's cuisine generally shouldn't matter during the development process, there are definitely other differences that should be taken into account. 
 
