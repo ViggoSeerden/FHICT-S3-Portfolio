@@ -11,7 +11,8 @@ Student no. 491216
 - [Agile](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#agile)
 - [UI/UX](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#uiux)
 - [Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#release-management)
-- [Professional](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#professional)
+- [Business Process](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#business-process)
+- [Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#professionalism)
 
 ## Project Description
 
@@ -62,7 +63,9 @@ Below is a picture of our front-end GitHub repository:
 
 <img width="1049" alt="github gp" src="https://user-images.githubusercontent.com/100349697/203785032-0d4c6c90-3704-4c10-a515-08d7c8e75e30.png">
 
-## Professional
+## Business Process
+
+## Professionalism
 
 Throughout the semester, students are expected to show the teachers their work and ask for feedback on what they've made. Students can, of course, also reach out to teachers when a question arises. No matter the outcome or conclusion of one of these conversations, it's important to document them using Feedpulse on Canvas for possible future reference. This process is also one of the eight learning outcomes. I've shown my work on several occasions to the teachers, and have documented these conversations like expected. For the group project, we also have group and peer feedback, which are usually done at the end of a sprint. Finally, and probably most importantly for the group project, we also need to have frequent contact with the project stakeholder, in our case the people from iO. Like mentioned above, this was mainly done via Jira in the comments of issues, but also during our sprint retrospectives at iO's offices in Eindhoven.
 
