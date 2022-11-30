@@ -1,13 +1,14 @@
 # Cultural Differences in Software
+By Viggo Seerden
 
 ## Table of Contents
 
-- [Introduction]
-- [What are cultural differences?]
-- [Why do cultural differences matter in software?]
-- [How can work optimally with these differences in mind?]
-- [Conclusion]
-- [Sources]
+- [Introduction](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md#introduction)
+- [What are cultural differences?](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md#what-are-cultural-differences)
+- [Why do cultural differences matter in software?](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md#why-do-cultural-differences-matter-in-software)
+- [How can we work optimally with these differences in mind?](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md#how-can-we-work-optimally-with-these-differences-in-mind)
+- [Conclusion](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md#conclusion)
+- [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md#sources)
 
 ## Introduction
 
@@ -25,7 +26,7 @@ First off all, and probably the most obvious barrier, is communication. A lot cu
 
 Last semester, I experienced first hand what impacts cultural differences can have on the software development process. For a little context, this was during the group project. I was in a group of seven people including myself, two of which didn't have a Dutch background. I believe both have a Syrian background, however I'm not 100% sure on this. I do know that both were muslims, though. This fact did play a role during the group project. This semester lasted from February to June, which meant that during the month of April, they took part in the Ramadan. The Ramadan is an event in which participating muslims start fasting for the duration of the month. Some muslims, however, do decide to eat late at night during this. If I remember correctly, this was the case for these groupmates. Due to them staying up late, they would get a lack of sleep if they had to be at school at 9 in the morning, so they asked the rest of our group, and our semester coach, if it would be okay for them to be a bit later on the days when we worked on the group project during April. The agreement we ended up making wasn't very clear, as both parties had a different understading of it, which eventually lead to a somewhat heated discussion, which obviously had an impact on our project. It all ended up fine eventually, but as you can see, not taking these cultural differences into account (or not making clear agreements about them) can bottleneck the software development process.
 
-## How can we work with these differences in mind?
+## How can we work optimally with these differences in mind?
 
 ## Conclusion
 
