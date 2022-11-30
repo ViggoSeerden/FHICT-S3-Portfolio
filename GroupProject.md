@@ -16,7 +16,7 @@ Student no. 491216
 
 ## Project Description
 
-For company iO, we made a colleague tracker application for Android & iOS. In here, iO employees can keep track of where their colleagues are, should they need them for something. This means being able to see whether they're at home, or at one of their offices, and possibly even which floor or room they're in. You could also be able to see their availability through Outlook agendas. If you need a colleague, you can notify them, and you can also bookmark some colleagues for quick access. 
+For company iO, we made a colleague tracker application for Android & iOS. In here, iO employees can keep track of where their colleagues are, should they need them for something. This means being able to see whether they're at home, or at one of their offices, and possibly even which floor or room they're in. You could also be able to see their availability through Outlook agendas. If you need a colleague, you can notify them, and you can also bookmark some colleagues for quick access. Staff locations could also be automatically updated based on MAC-addresses and/or WiFi logs.
 
 ## Documentation
 
@@ -29,23 +29,24 @@ I made several user stories for the project, which are listed below:
 - US5: As an iO staff member, I want to have the ability to add the MAC-Addresses of my other devices so my location can be updated based on multiple sources
 - US6: As an iO staff member, I want to be able to search for specific colleagues in the app using name input or a selection of filters so I can find someone suitable    faster
 - US7: As an iO staff member, I want to be able to see the agenda of my colleagues so I can see their full availability
-US8: As an iO staff member, I want to be able to notify my colleagues so they know that I need them and that I’m looking for them
-US9: As an iO staff member, I want to be able to create my own profile page with a name, e-mail address, description and role/specialty so others know how to reach me and if I’m suitable for their request
-US10: As an iO staff member, I want to be able to see the profiles of my colleagues so I know where I can reach out to them, and whether their role suits my request
-US11: As an iO staff member, I want to be able to post an open request so that anyone with time can come and help
-US12: As an iO staff member, I want to be able to bookmark or favorite certain colleagues for easy access in the app should I need them multiple times in the future
-US13: As an iO staff member, I want to receive a notification when an unavailable colleague I need becomes available again
-US14: As an iO staff member, I want the app to be written in English so that everyone can use the app without a language barrier
-US15: As an iO staff member, I want the app to be compatible with both iOS and Android, so that everyone with one of those OS’s can use the app
-US16: As an iO staff member, I want the app to boot and load new pages in no more than 3 seconds to keep the workflow going smoothly
-US17: As an iO staff member, I want my data to be properly protected so no one has access to it.
-US18: As an iO staff member, I want to be able to refresh the data so I can check if any changes have been made to my colleagues statuses
-US19: As product owner, I want every staff member to be able to log into their account so that outsiders cannot access their data
+- US8: As an iO staff member, I want to be able to notify my colleagues so they know that I need them and that I’m looking for them
+- US9: As an iO staff member, I want to be able to create my own profile page with a name, e-mail address, description and role/specialty so others know how to reach     me and if I’m suitable for their request
+- US10: As an iO staff member, I want to be able to see the profiles of my colleagues so I know where I can reach out to them, and whether their role suits my request
+- US11: As an iO staff member, I want to be able to post an open request so that anyone with time can come and help
+- US12: As an iO staff member, I want to be able to bookmark or favorite certain colleagues for easy access in the app should I need them multiple times in the future
+- US13: As an iO staff member, I want to receive a notification when an unavailable colleague I need becomes available again
+- US14: As an iO staff member, I want the app to be written in English so that everyone can use the app without a language barrier
+- US15: As an iO staff member, I want the app to be compatible with both iOS and Android, so that everyone with one of those OS’s can use the app
+- US16: As an iO staff member, I want the app to boot and load new pages in no more than 3 seconds to keep the workflow going smoothly
+- US17: As an iO staff member, I want my data to be properly protected so no one has access to it.
+- US18: As an iO staff member, I want to be able to refresh the data so I can check if any changes have been made to my colleagues statuses
+- US19: As product owner, I want every staff member to be able to log into their account so that outsiders cannot access their data
 
+To keep track of the progression of these user stories, as wel as other tasks, we made use of Jira. More on this can be found under Agile.
 
 ## Agile
 
-We made use of Scrum for this project. Our project was split into 6 sprints, starting with sprint 0. This includes daily stand-ups and stand-downs, and presentations and retrospectives with our stakeholders and teacher at the end of every sprint. 
+We made use of Scrum for this project. Our project was split into 6 sprints, starting with sprint 0. This includes daily stand-ups and stand-downs, and presentations and retrospectives with our stakeholders and teacher at the end of every sprint. We also made use of Jira for keeping track of our progression on user stories and tasks, but also as a means of communication with our stakeholders at iO. We would use the comments on Jira tickets to ask questions or feedback. Jira also has other tools available for us to use suck as sprint burndown charts. To make proper use of this chart, we also started making estimations for how long issues would take us to do, and keeping track of how long each issue actually ended up taking us to complete.
 
 Here is a picture of our Jira Backlog from Sprint 3:
 
@@ -73,4 +74,4 @@ An example of feedpulse from a GP product can be found here:
 
 <img width="641" alt="feedpulse GP" src="https://user-images.githubusercontent.com/100349697/203783530-ef620494-098b-411d-ae08-c07e1ca8c157.png">
 
-More examples can be found on Canvas.
+More examples of this can be found on Canvas.
