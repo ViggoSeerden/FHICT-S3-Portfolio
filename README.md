@@ -6,42 +6,44 @@ This is my portfolio for the Fontys HBO ICT Software Course in the third semeste
 ### 1. You design and build user-friendly, full-stack web applications.
 #### Proof:
 - [Individual Project](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md)
-- [Group Project]
+- [Group Project](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md)
 
 ### 2. You use software tooling and methodology that continuously monitors and improve the software quality during software development.
 #### Proof:
 - [Individual Project: Quality Assurance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#quality-assurance)
-- [Research Reports: Data Protection (Security)]
+- [Research Report: Data Protection (Security)](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Data%20Protection.md)
 
 ### 3. You choose and implement the most suitable agile software development method for your software project.
 #### Proof:
-- [Group Project: Agile]
+- [Group Project: Agile](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#agile)
 
 ### 4. You design and implement a (semi)automated software release process that matches the needs of the project context.
 #### Proof:
 - [Individual Project: Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#release-management)
+- [Group Project: Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#release-management)
 
 ### 5. You recognize and take into account cultural differences between project stakeholders and ethical aspects in software development.
 #### Proof:
 - [Individual Project: Ethics](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#ethics)
-- [Research Reports: Cultural Differences]
+- [Research Report: Cultural Differences](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md)
 
 ### 6. You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques.
 #### Proof:
 - [Individual Project: Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#documentation)
-- [Group Project: Documentation]
+- [Group Project: Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#documentation)
 
 ### 7. You analyze and describe simple business processes that are related to your project.
 #### Proof:
-- [Business Processes]
+- [Individual Project: Business Process]
+- [Group Project: Business Process]
 
 ### 8. You act in a professional manner during software development and learning.
 ##### Proof:
 - [Individual Project: Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#professionalism)
-- [Group Project: Professionalism]
+- [Group Project: Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#professional)
 
 
 ## Research Reports
 
-- [Security: Data Protection]
-- [Cultural Differences in Software]
+- [Security: Data Protection](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md)
+- [Cultural Differences in Software](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md)
