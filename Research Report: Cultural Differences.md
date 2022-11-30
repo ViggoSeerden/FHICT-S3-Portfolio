@@ -4,7 +4,7 @@
 
 - [Introduction]
 - [What are cultural differences?]
-- [Whay do cultural differences matter in software?]
+- [Why do cultural differences matter in software?]
 - [How can work optimally with these differences in mind?]
 - [Conclusion]
 - [Sources]
