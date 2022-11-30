@@ -20,7 +20,8 @@ Student no. 491216
 - [Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#release-management)
   - [Version Control](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#version-control)
   - [CI/CD](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#cicd)
-- [Ethics](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#et)
+- [Ethics](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#ethics)
+- [Business Process](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#business-process)
 - [Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#professionalism)
 - [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#sources)
 
@@ -264,6 +265,8 @@ This one does simillar things like installing the packages from package.json and
 Currently, tests are only done in the back-end pipeline, since there are no front-end tests made yet. Furthermore, only the unit tests get executed, because the integration tests are currently impossible to successfully perform since my database is only locally available.
 
 ## Ethics
+
+## Business Process
 
 ## Professionalism
 
