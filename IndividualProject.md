@@ -22,7 +22,6 @@ Student no. 491216
 - [Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#release-management)
   - [Version Control](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#version-control)
   - [CI/CD](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#cicd)
-- [Ethics](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#ethics)
 - [Business Process](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#business-process)
 - [Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#professionalism)
 - [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#sources)
@@ -339,10 +338,6 @@ CMD [ "http-server", "dist" ]
 This one does simillar things like installing the packages from package.json and building the projects, but I should note the *http-server* install and the creation of the *dist*, which is done to make the app run from Docker.
 
 Currently, tests are only done in the back-end pipeline, since there are no front-end tests to be tested. Furthermore, only the unit tests get executed, because the integration tests are currently impossible to successfully perform since my database is only locally available.
-
-## Ethics
-
-According to learning outcome 5, students are expected to address one of the standard Programming Ethical Guidelines. I chose to address the ACM Code of Ethics and Professional Conduct. I chose this one since I really had no experience with this, and this one was the example given in the learning outcome.
 
 ## Business Process
 
