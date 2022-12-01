@@ -138,6 +138,8 @@ Container:
 
 ### Testing
 
+My testplan is quite simple. I plan to create unit- and integration tests for my back-end, for testing logic and connections. This will be done using MSTest projects. I chose to use MSTest over something like xUnit because I personally find MSTest a bit more clear, with test methods actually being called *TestMethod* instead of something kind of vague like *Fact*. As for the front-end, aside from Google Lighthouse scans every so often, I plan on doing usability tests to make sure my site is easily navigatable. 
+
 Currently, I have written a few unit and integration tests for my back-end through two MSTest projects in the same solution as my back-end. 
 
 The unit tests test the save data alteration I do in my back-end's service classes, which is pure logic. An example can be found below:
