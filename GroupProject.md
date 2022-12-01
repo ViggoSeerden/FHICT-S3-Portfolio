@@ -46,7 +46,7 @@ To keep track of the progression of these user stories, as wel as other tasks, w
 
 ## Agile
 
-We made use of Scrum for this project. Our project was split into 6 sprints, starting with sprint 0. This includes daily stand-ups and stand-downs, and presentations and retrospectives with our stakeholders and teacher at the end of every sprint. We also made use of Jira for keeping track of our progression on user stories and tasks, but also as a means of communication with our stakeholders at iO. We would use the comments on Jira tickets to ask questions or feedback. Jira also has other tools available for us to use suck as sprint burndown charts. To make proper use of this chart, we also started making estimations for how long issues would take us to do, and keeping track of how long each issue actually ended up taking us to complete.
+We made use of Scrum for this project. Our project was split into 6 sprints, starting with sprint 0. This includes daily stand-ups and stand-downs, and presentations and retrospectives with our stakeholders and teacher at the end of every sprint. We also made use of Jira for keeping track of our progression on user stories and tasks, but also as a means of communication with our stakeholders at iO. We would use the comments on Jira tickets to ask questions or feedback. Jira also has other tools available for us to use suck as sprint burndown charts. To make proper use of this chart, we also started making estimations for how long issues would take us to do, and keeping track of how long each issue actually ended up taking us to complete. We chose to use Scrum due to everyone having prior experience with this framework. 
 
 Here is a picture of our Jira Backlog from Sprint 3:
 
