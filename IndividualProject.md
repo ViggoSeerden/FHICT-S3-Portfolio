@@ -217,20 +217,46 @@ on:
 
 jobs:
   CI:
-    runs-on: ubuntu-latest
-
+    name: Build and analyze
+    runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: 6.0.x
-    - name: Restore dependencies
-      run: dotnet restore
-    - name: Build
-      run: dotnet build --no-restore
-    - name: Unit test
-      run: dotnet test ./TTSSimUnitTests/TTSSimUnitTests.csproj
+      - name: Set up JDK 11
+        uses: actions/setup-java@v1
+        with:
+          java-version: 1.11
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+      - name: Cache SonarCloud packages
+        uses: actions/cache@v1
+        with:
+          path: ~\sonar\cache
+          key: ${{ runner.os }}-sonar
+          restore-keys: ${{ runner.os }}-sonar
+      - name: Cache SonarCloud scanner
+        id: cache-sonar-scanner
+        uses: actions/cache@v1
+        with:
+          path: .\.sonar\scanner
+          key: ${{ runner.os }}-sonar-scanner
+          restore-keys: ${{ runner.os }}-sonar-scanner
+      - name: Install SonarCloud scanner
+        if: steps.cache-sonar-scanner.outputs.cache-hit != 'true'
+        shell: powershell
+        run: |
+          New-Item -Path .\.sonar\scanner -ItemType Directory
+          dotnet tool update dotnet-sonarscanner --tool-path .\.sonar\scanner
+      - name: Build and analyze
+        env:
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        shell: powershell
+        run: |
+          dotnet tool install --global dotnet-coverage
+          .\.sonar\scanner\dotnet-sonarscanner begin /k:"ViggoSeerden_TTSSimRESTAPI" /o:"viggoseerden" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"        /d:sonar.host.url="https://sonarcloud.io" /d:sonar.cs.vscoveragexml.reportsPaths=coverage.xml
+          dotnet restore
+          dotnet build --no-restore
+          dotnet-coverage collect 'dotnet test ./TTSSimUnitTests/TTSSimUnitTests.csproj' -f xml  -o 'coverage.xml'
+          .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
       
   CD:
     runs-on: ubuntu-latest
@@ -253,11 +279,35 @@ jobs:
         run: sudo docker push oggiv/fhict-s3-ttssim:backend
 ```
 
-At the top of this file I specify when this pipeline gets triggered. This only happens on either a push to the main branch, or a pull request from the main branch. After this, the CI job starts. After specifying the OS to run on and the versions to use, I first call *dotnet restore* to restore the package dependencies for each project (this would be *npm ci* for the front-end). After that, I call *dotnet build* (or *npm run build* for front-end) to build the solution. If at any point during the building process an error occurs, this job fails. Warnings get a pass in the back-end pipeline, however in the front-end pipelines warnings get treated as errors, due to this being how React handles the building process. Finally, I call *dotnet test*, followed by the directory for my unit test project (this would be *npm test*), which, as the name suggests, runs the unit tests. These also have to succeed for this job to succeed as a whole.
+(Job names were altered in this portfolio for the sake of clarity)
 
-Next is the CD job. After once again specifying an OS, I first declare that this job will only run if the CI job is successful. There's no real point in deploying a broken version of my application. This is also why I chose to have my CI/CD process in one file, instead of two seperate files. This CD job deploys my application to DockerHub, which requires some authentication, so I first have to specify my DockerHub username and password. Since typing these directly in my pipeline would be foolish, so I used GitHub secrets for this. These are referenced by *REGISTRY_USERNAME* and *REGISTRY_PASSWORD*. After this, I build my Docker image, by using the Dockerfile in my repository. Finally, after specifying a tag, I push the created image to DockerHub. My front-ends and back-ends are all stored in the same repository under different tags.
+At the top of this file I specify when this pipeline gets triggered. This only happens on either a push to the main branch, or a pull request from the main branch. After this, the CI job starts. After specifying the OS to run on and the versions to use, I first setup everything neccessary for the SonarCloud review. At the bottom of this, I specify to what SonarCloud repository the project should be pushed. This required some authentication, and Since typing these directly in my pipeline would be foolish, so I used GitHub secrets for this. This information is referenced by *SONAR_TOKEN*. Then I call *dotnet restore* to restore the package dependencies for each project (this would be *npm ci* for the front-end). After that, I call *dotnet build* (or *npm run build* for front-end) to build the solution. If at any point during the building process an error occurs, this job fails. Warnings get a pass in the back-end pipeline, however in the front-end pipelines warnings get treated as errors, due to this being how React handles the building process. Finally, I call *dotnet test*, followed by the directory for my unit test project (this would be *npm test*), which, as the name suggests, runs the unit tests. These also have to succeed for this job to succeed as a whole.
 
-I decided to use Docker to deploy my projects after some recommendations from classmates. Below you can see my back-end Dockerfile:
+Since my front-end doesn't have to be pushed to SonarCloud, it's a lot smaller:
+
+```
+runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x, 18.x]
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+    - run: npm ci --legacy-peer-deps
+    - run: npm run build --if-present
+```
+
+The only commands of note here are *npm ci* and *npm run build*, which do the same as their .NET counterparts that I already explained.
+
+Next is the CD job. This job is largely the same between the front- and back-end projects. After once again specifying an OS, I first declare that this job will only run if the CI job is successful. There's no real point in deploying a broken version of my application. This is also why I chose to have my CI/CD process in one file, instead of two seperate files. This CD job deploys my application to DockerHub, which requires some authentication, so I first have to specify my DockerHub username and password. Like in the CI job, it's not safe to put this information directly in the pipeline for the world to see, so there are again handled by GitHub Secrets. These are referenced by *REGISTRY_USERNAME* and *REGISTRY_PASSWORD*. After this, I build my Docker image, by using the Dockerfile in my repository. Finally, after specifying a tag, I push the created image to DockerHub. My front-ends and back-ends are all stored in the same repository under different tags.
+
+I decided to use Docker to deploy my projects to after some recommendations from classmates. Below you can see my back-end Dockerfile:
 
 ```
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
@@ -288,7 +338,7 @@ CMD [ "http-server", "dist" ]
 
 This one does simillar things like installing the packages from package.json and building the projects, but I should note the *http-server* install and the creation of the *dist*, which is done to make the app run from Docker.
 
-Currently, tests are only done in the back-end pipeline, since there are no front-end tests made yet. Furthermore, only the unit tests get executed, because the integration tests are currently impossible to successfully perform since my database is only locally available.
+Currently, tests are only done in the back-end pipeline, since there are no front-end tests to be tested. Furthermore, only the unit tests get executed, because the integration tests are currently impossible to successfully perform since my database is only locally available.
 
 ## Ethics
 
