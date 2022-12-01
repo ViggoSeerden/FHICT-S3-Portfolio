@@ -158,7 +158,7 @@ So far, I have checked my front-end performance using Google Lighthouse:
 
 <img width="301" alt="lighthouse" src="https://user-images.githubusercontent.com/100349697/203652520-90346590-e417-43cd-9b02-e40b8e42c15c.png">
 
-The performance score used to be much lower, due to me using a less optimal image file for the logo on the main page, which had such a heavy impact on the performance that the score used to be a 6.3. After fixing this, however, there remain few optimisations to be made.
+Every so often, usually after adding features or style changes, I run a Lighthouse scan like this to find any possible bottlenecks affecting performance. I want to keep this score at 90 or higher for optimal performance. An example of a change I made is that the performance score used to be much lower, due to me using a less optimal image file (.png instead of .webp) for the logo on the main page, which had such a heavy impact on the performance that the score dropped all the way to a 6.3. After fixing this, however, there remain few optimisations to be made, none of which give any notable performance gains.
 
 ### Security
 
