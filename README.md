@@ -40,7 +40,7 @@ This is my portfolio for the Fontys HBO ICT Software Course in the third semeste
 ### 8. You act in a professional manner during software development and learning.
 ##### Proof:
 - [Individual Project: Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#professionalism)
-- [Group Project: Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#professional)
+- [Group Project: Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#professionalism)
 
 
 ## Research Reports
