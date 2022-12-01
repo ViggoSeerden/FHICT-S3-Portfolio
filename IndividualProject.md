@@ -12,9 +12,11 @@ Student no. 491216
   - [User Stories](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#user-stories)   
   - [C4 Model](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#c4-model)
 - [UI/UX](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#uiux)
+  - [UI](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#ui)
+  - [UX](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#ux)
 - [Quality Assurance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#quality-assurance)
   - [Code Analysis](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#code-analysis)
-  - [Testing](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#testing)
+  - [Testing](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#testing-testplan)
   - [Performance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#performance)
   - [Security](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#security)  
 - [Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#release-management)
@@ -132,6 +134,8 @@ Container:
 
 ## UI/UX
 
+### UI
+
 Since I based my website and game on an existing piece of media, specifically the game Persona 3, I tried to apply a similar style to my website. The Persona series is well known for it's art styles. Every game in the series has one color that's used throughout the entire game for it's UI. In Persona 3's case, that's blue, however in some parts of the game, specifically the parts that inspired my project, it's green, so that's the color I mainly used, with hints of blue here and there. For context, the blue is used in the non-dungeon crawling parts of the game, which aren't in my game at all, however, that's not to say that the blue doesn't appear in these parts of the game. First of all, I created a logo using elements from Persona 3:
 
 ![tartarussimlogo](https://user-images.githubusercontent.com/100349697/203649141-82c8d347-ebd5-444a-acef-820b5f7d6168.png)
@@ -142,13 +146,17 @@ On the website, the background is an image of Tartarus, with a looping subtle gr
 
 <img width="1201" alt="Screenshot 2022-12-01 105732" src="https://user-images.githubusercontent.com/100349697/205023392-597800a2-eef6-4f90-a0b2-dcb37e3ce01e.png">
 
+### UX
+
 ## Quality Assurance
 
 ### Code Analysis
 
-### Testing
+### Testing & Testplan
 
-My testplan is quite simple. I plan to create unit- and integration tests for my back-end, for testing logic and connections. This will be done using MSTest projects. I chose to use MSTest over something like xUnit because I personally find MSTest a bit more clear, with test methods actually being called *TestMethod* instead of something kind of vague like *Fact*. As for the front-end, aside from Google Lighthouse scans every so often, I plan on doing usability tests to make sure my site is easily navigatable. 
+My testplan is quite simple. I plan to create unit- and integration tests for my back-end, for testing logic and connections. This will be done using MSTest projects. I chose to use MSTest over something like xUnit because I personally find MSTest a bit more clear, with test methods actually being called *TestMethod* instead of something kind of vague like *Fact*. The logic tested is the save file editing I do in my back-end, which requires the serialising and deserialising of the JSON save files. Thankfully since the game was written in C#, I can use the exact same classes for serialisation. Integration tests will be done on my controllers, by using "fake" HTTP client to make requests to the controllers. I will make calls to these controllers using the actual database and tables also used by my website. I decided to do it this way, since integration tests are specifically to test the connection between two parts of my application, in this case the back-end and database (and arguably the front-end too, due to the fake HTTP client).
+
+As for the front-end, aside from Google Lighthouse scans every so often, I plan on doing usability tests to make sure my site is easily navigatable. These usability tests will be done by asking fellow classmates to do simple tasks on the site, like registering an account and playing the game. Aside from playing the game, there aren't many other features to utelise, so I plan on asking them to navigate to other pages and change game settings like audio volume and screen size. Aside from that, I'll ask them about the website's style. All this is to gather feedback for potential improvement.
 
 Currently, I have written a few unit and integration tests for my back-end through two MSTest projects in the same solution as my back-end. 
 
