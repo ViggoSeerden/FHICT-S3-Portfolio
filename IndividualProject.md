@@ -132,6 +132,16 @@ Container:
 
 ## UI/UX
 
+Since I based my website and game on an existing piece of media, specifically the game Persona 3, I tried to apply a similar style to my website. The Persona series is well known for it's art styles. Every game in the series has one color that's used throughout the entire game for it's UI. In Persona 3's case, that's blue, however in some parts of the game, specifically the parts that inspired my project, it's green, so that's the color I mainly used, with hints of blue here and there. For context, the blue is used in the non-dungeon crawling parts of the game, which aren't in my game at all, however, that's not to say that the blue doesn't appear in these parts of the game. First of all, I created a logo using elements from Persona 3:
+
+![tartarussimlogo](https://user-images.githubusercontent.com/100349697/203649141-82c8d347-ebd5-444a-acef-820b5f7d6168.png)
+
+I won't go into too much detail about the Persona 3 stuff, since I'd have to explain a plot synopsis of the entire 80-hour game, but I'll try to give a simple explanation here. Persona 3's story is about a phenomenon known as the Dark Hour. It's during this hour that the tower seen behind the green clouds appears. This tower, known as Tartarus, is where the game on my website takes place. During the Dark Hour, a greenish fog appears across the terrain, so hence the green cloud. The moon also gets a green tint, so thats represented here too. The blue clock overlapping the moon is taken straight from Persona 3, since this clock appears right before the Dark Hour starts, as the clock strikes midnight. Finally, if you look closely, you'll see binary code in the moon, to represent the fact that my game is supposed to be a mere simulation of the Dark Hour. Finally, the font used for the logo's text is the same font that's used for Persona 3's logo, except with it's color inverted and a black glow to make it more easily readable and stand out from the (admittedly kind of busy) background.
+
+On the website, the background is an image of Tartarus, with a looping subtle green fog overlapping it. Like in Persona 3, the text is mainly white. I did make some containers for text, as seen under the news section, which have a very slight bluish tint and glow to them:
+
+<img width="1201" alt="Screenshot 2022-12-01 105732" src="https://user-images.githubusercontent.com/100349697/205023392-597800a2-eef6-4f90-a0b2-dcb37e3ce01e.png">
+
 ## Quality Assurance
 
 ### Code Analysis
