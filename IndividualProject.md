@@ -342,6 +342,8 @@ Currently, tests are only done in the back-end pipeline, since there are no fron
 
 ## Ethics
 
+According to learning outcome 5, students are expected to address one of the standard Programming Ethical Guidelines. I chose to address the ACM Code of Ethics and Professional Conduct. I chose this one since I really had no experience with this, and this one was the example given in the learning outcome.
+
 ## Business Process
 
 ## Professionalism
