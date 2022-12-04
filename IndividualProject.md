@@ -387,3 +387,5 @@ Sources used for the creation of the frontend and backend are found here
 - [This video](https://www.youtube.com/watch?v=Fbf_ua2t6v4) and [this video](https://www.youtube.com/watch?v=Tj3qsKSNvMk), both for learning how to build a RESTful API
 - [This Article](https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows) for containerising a .NET app for Docker
 - [This Article](https://dotnetthoughts.net/dotnet-minimal-api-integration-testing/) for performing integration tests using an in-memory database in .NET REST API's.
+
+It should be noted that, for some parts of the process of building this project and reaching the desired learning outcomes, I received help from other students or studied other students' portfolio's.
