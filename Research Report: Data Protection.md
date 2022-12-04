@@ -1,4 +1,5 @@
 # Data Protection
+By Viggo Seerden
 
 ## Table of Contents
 
