@@ -44,4 +44,4 @@ I think that the communication differences and behavioral/moral differences can 
 ## Sources
 
 - [The Effect of Cultural Differences on Software Development (PDF)](http://cit.mak.ac.ug/iccir/downloads/ICCIR_09/D%20Patel,%20C%20Lawson-Johnson%20&%20S%20Patel_09.pdf) by D. Patel, S. Patel & C. Lawson-Johnson
-- [Hofstede's Cultural Dimensions Theory (Wikipedia)](https://en.wikipedia.org/wiki/Hofstede%27s_cultural_dimensions_theory#:~:text=The%20original%20theory%20proposed%20four,orientation%20versus%20person%2Dorientation)
+- Hofstede's Cultural Dimensions Theory on [Wikipedia](https://en.wikipedia.org/wiki/Hofstede%27s_cultural_dimensions_theory#:~:text=The%20original%20theory%20proposed%20four,orientation%20versus%20person%2Dorientation) and [SimplyPsychology](https://www.simplypsychology.org/hofstedes-cultural-dimensions-theory.html)
