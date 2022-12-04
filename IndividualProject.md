@@ -32,6 +32,8 @@ Student no. 491216
   - [CI/CD](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#cicd)
 - [Business Process](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#business-process)
 - [Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#professionalism)
+  - [Feedback](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#feedback)
+  - [Reflection](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#reflection)   
 - [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#sources)
 
 ## Project Description
@@ -369,11 +371,15 @@ This one does simillar things like installing the packages from package.json and
 
 ## Professionalism
 
+### Feedback
+
 Throughout the semester, students are expected to show the teachers their work and ask for feedback on what they've made. Students can, of course, also reach out to teachers when a question arises. No matter the outcome or conclusion of one of these conversations, it's important to document them using Feedpulse on Canvas for possible future reference. This process is also one of the eight learning outcomes. I've shown my work on several occasions to the teachers, and have documented these conversations like expected. An example of this can be found here:
 
 <img width="386" alt="feedpulse" src="https://user-images.githubusercontent.com/100349697/203642711-31b9f335-0571-4e3d-93e6-d1f69349a42d.png">
 
 More examples can be found on Canvas.
+
+### Reflection
 
 ## Sources
 
