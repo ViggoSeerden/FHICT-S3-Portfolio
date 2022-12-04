@@ -159,7 +159,7 @@ I used SonarCloud to review my back-end project. This program checks for any bug
 
 ### Testing & Testplan
 
-My testplan is quite simple. I plan to create unit- and integration tests for my back-end, for testing logic and connections. This will be done using MSTest projects. I chose to use MSTest over something like xUnit because I personally find MSTest a bit more clear, with test methods actually being called *TestMethod* instead of something kind of vague like *Fact*. The logic tested is the save file editing I do in my back-end, which requires the serialising and deserialising of the JSON save files. Thankfully since the game was written in C#, I can use the exact same classes for serialisation. Integration tests will be done on my controllers, by using "fake" HTTP client to make requests to the controllers. I will make calls to these controllers using the actual database and tables also used by my website. I decided to do it this way, since integration tests are specifically to test the connection between two parts of my application, in this case the back-end and database (and arguably the front-end too, due to the fake HTTP client).
+My testplan is quite simple. I plan to create unit- and integration tests for my back-end, for testing logic and connections. This will be done using MSTest projects. I chose to use MSTest over something like xUnit because I personally find MSTest a bit more clear, with test methods actually being called *TestMethod* instead of something kind of vague like *Fact*. The logic tested is the save file editing I do in my back-end, which requires the serialising and deserialising of the JSON save files. Thankfully since the game was written in C#, I can use the exact same classes for serialisation. Integration tests will be done on my controllers, by using "fake" HTTP client to make requests to the controllers. I will make calls to these controllers which should then return data from an in-memory database.
 
 As for the front-end, aside from Google Lighthouse scans every so often, I plan on doing usability tests to make sure my site is easily navigatable. These usability tests will be done by asking fellow students and a few friends (some of which are also knowledgeable on web development, and some are not) to do simple tasks on the site, like registering an account and playing the game. Aside from playing the game, there aren't many other features to utelise, so I plan on asking them to navigate to other pages and change game settings like audio volume and screen size. Aside from that, I'll ask them about the website's style. All this is to gather feedback for potential improvement.
 
@@ -175,7 +175,13 @@ My integration tests test the connection to the back-end, and by extension the d
 
 <img width="651" alt="integration test" src="https://user-images.githubusercontent.com/100349697/203650269-db2ff834-3632-4a38-9b86-6220f791e3a0.png">
 
-In this test, I simulate the process of adding a new user to the database. This is possible thanks to a NuGet package called Microsoft.AspNetCore.Mvc.Testing, which allows me to emulate an http request, which can then access the correct function in my controller, which executes the code like normal. I then check the response by first converting it to a more readable string format, and then checking if it contains the correct data. I also check for the correct status code.
+In this test, I simulate the process of adding a new user to the database. This is possible thanks to a NuGet package called Microsoft.AspNetCore.Mvc.Testing, which allows me to emulate an http request, which can then access the correct function in my controller, which executes the code like normal. I then check the response by first converting it to a more readable string format, and then checking if it contains the correct data. I also check for the correct status code. It should be noted that the database used for this is an in-memory one, which means the data used for this is not the actual database used for my website. I achieved this by overriding my Program.cs file (which is where the database to use is set through a connection string) in a seperate class in my test project:
+
+<img width="389" alt="inmemory" src="https://user-images.githubusercontent.com/100349697/205496620-834ffbdf-2a47-4ac6-a7c6-9e2ca6702fdf.png">
+
+This function is called in the test class' constructor, so the *client* being called in the example test method above (at *client.PostAsync*) is using the in-memory database. Like I said, this in-memory database is instantiated in the constructor, where it's also filled with some data for testing *GET*, *PUT* and *DELETE* calls:
+
+<img width="520" alt="constructor" src="https://user-images.githubusercontent.com/100349697/205496827-57cc1a47-1813-41b2-b093-4025b93ace9b.png">
 
 ### Performance
 
@@ -302,7 +308,7 @@ runs-on: ubuntu-latest
     - run: npm run build --if-present
 ```
 
-The only commands of note here are *npm ci* and *npm run build*, which do the same as their .NET counterparts that I already explained.
+The only commands of note here are *npm ci* and *npm run build*, which do the same as their .NET counterparts that I already explained. There is no test equivalent, since I don't have any tests for the front-end that can be executed in the CI/CD.
 
 Next is the CD job. This job is largely the same between the front- and back-end projects. After once again specifying an OS, I first declare that this job will only run if the CI job is successful. There's no real point in deploying a broken version of my application. This is also why I chose to have my CI/CD process in one file, instead of two seperate files. This CD job deploys my application to DockerHub, which requires some authentication, so I first have to specify my DockerHub username and password. Like in the CI job, it's not safe to put this information directly in the pipeline for the world to see, so there are again handled by GitHub Secrets. These are referenced by *REGISTRY_USERNAME* and *REGISTRY_PASSWORD*. After this, I build my Docker image, by using the Dockerfile in my repository. Finally, after specifying a tag, I push the created image to DockerHub. My front-ends and back-ends are all stored in the same repository under different tags.
 
@@ -336,8 +342,6 @@ CMD [ "http-server", "dist" ]
 ```
 
 This one does simillar things like installing the packages from package.json and building the projects, but I should note the *http-server* install and the creation of the *dist*, which is done to make the app run from Docker.
-
-Currently, tests are only done in the back-end pipeline, since there are no front-end tests to be tested. Furthermore, only the unit tests get executed, because the integration tests are currently impossible to successfully perform since my database is only locally available.
 
 ## Business Process
 
