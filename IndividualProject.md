@@ -207,7 +207,7 @@ This function is called in the test class' constructor, so the *client* being ca
 
 ### Performance
 
-So far, I have checked my front-end performance using Google Lighthouse:
+I have been continuously monitoring my websites performance using Google Lighthouse as seen below:
 
 <img width="301" alt="lighthouse" src="https://user-images.githubusercontent.com/100349697/203652520-90346590-e417-43cd-9b02-e40b8e42c15c.png">
 
