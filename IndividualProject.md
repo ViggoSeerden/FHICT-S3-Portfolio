@@ -133,6 +133,8 @@ I have prioritized these user stories based on urgency and neccessity using the 
 | US16       | US10        | US12       |            |
 | US17       | US14        | US15       |            |
 
+Sadly, I was only able to do the ones under Must Have due to time constraints. I wish I was able to do more of them, but at least the most important ones features are present. 
+
 ### C4 Model
 
 Below are two parts of a C4 model made for this project, those being the context model and the container model.
