@@ -16,6 +16,7 @@ This is my portfolio for the Fontys HBO ICT Software Course in the third semeste
 ### 3. You choose and implement the most suitable agile software development method for your software project.
 #### Proof:
 - [Group Project: Agile](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#agile)
+- [Research Report: Agile](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md)
 
 ### 4. You design and implement a (semi)automated software release process that matches the needs of the project context.
 #### Proof:
@@ -47,3 +48,4 @@ This is my portfolio for the Fontys HBO ICT Software Course in the third semeste
 
 - [Security: Data Protection](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md)
 - [Cultural Differences in Software](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md)
+- [Agile](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md)
