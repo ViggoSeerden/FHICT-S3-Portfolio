@@ -117,6 +117,8 @@ To keep track of the progression of the user stories listed above, as well as ot
 
 <img width="853" alt="trello" src="https://user-images.githubusercontent.com/100349697/203642404-81dc53ed-580b-4d45-9bdf-01a470eec58c.png">
 
+Sadly, I wasn't able to actually implement as many user stories as I'd hoped due to time constraints, but at least the core is there.
+
 #### Prioritisation
 I have prioritized these user stories based on urgency and neccessity using the MoSCoW method:
 
@@ -127,8 +129,6 @@ I have prioritized these user stories based on urgency and neccessity using the 
 | US4        | US9         | US11       |            |
 | US16       | US10        | US12       |            |
 | US17       | US14        | US15       |            |
-
-Sadly, I was only able to do the ones under Must Have due to time constraints. I wish I was able to do more of them, but at least the most important ones features are present. 
 
 ### C4 Model
 
