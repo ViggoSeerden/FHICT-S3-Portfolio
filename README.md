@@ -25,7 +25,7 @@ This is my portfolio for the Fontys HBO ICT Software Course in the third semeste
 
 ### 5. You recognize and take into account cultural differences between project stakeholders and ethical aspects in software development.
 #### Proof:
-- [Individual Project: Ethics](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#ethics)
+- [Group Project: Ethics](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#ethics)
 - [Research Report: Cultural Differences](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md)
 
 ### 6. You analyze (non-functional) requirements, elaborate (architectural) designs and validate them using multiple types of test techniques.
