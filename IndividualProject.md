@@ -8,17 +8,23 @@ Student no. 491216
 
 - [Project Description](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#project-description)
   - [Technology Stack](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#technology-stack)
+    - [Front-End](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#front-end)
+    - [Back-End](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#back-end)
+    - [Database & Persistance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#database--persistance) 
 - [Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#documentation)
   - [User Stories](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#user-stories)
-    - [Trello]
-    - [Prioritisation]    
+    - [Prioritisation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#prioritisation)    
   - [C4 Model](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#c4-model)
 - [UI/UX](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#uiux)
   - [UI](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#ui)
   - [UX](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#ux)
 - [Quality Assurance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#quality-assurance)
   - [Code Analysis](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#code-analysis)
-  - [Testing & Testplan](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#testing--testplan)
+  - [Testing](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#testing)
+    - [Testplan](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#testplan)
+    - [Unit Tests](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#unit-tests)
+    - [Integration Tests](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#integration-tests)
+    - [Usability Tests](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#usability-tests)   
   - [Performance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#performance)
   - [Security](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#security)  
 - [Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#release-management)
@@ -51,6 +57,8 @@ These save files can also be encrypted to prevent anyone from cheating and manua
 ### Technology Stack
 This project (as of now) consists of two React frontends, one of which is an admin frontend, a .NET backend, and an SQL database. My choices for these options are as follows:
 
+#### Front-End
+
 For the frontend, I chose to use React.JS. Personally, I've never worked with a JavaScript-based frontend (or backend, for that matter), 
 so I had no experience or knowledge about any possible option. React, along with Vue and Angular, where the example/recommended options listed on Canvas, 
 so I decided to choose one of these three. After I thought of the initial idea behind my project, 
@@ -63,6 +71,8 @@ Below is a picture of the frontend/website:
 
 <img width="941" alt="site" src="https://user-images.githubusercontent.com/100349697/203651773-c6737cf1-4e6f-4d63-98b4-6f2b70313b26.png">
 
+#### Back-End
+
 For the backend, I originally wanted to go with Java. Like with the frontend, I looked at the recommendations on Canvas for this one. 
 I'd already used the other recommendation, .NET/C#, in both Semesters 1 and 2 for pretty much everything, so I thought it'd be nice to learn another language.
 After a few weeks of developing the game, and doing some research on Java, I changed my mind on this. I had already spent a good amount of time on the game,
@@ -73,6 +83,8 @@ My previous experience with .NET would make developing the backend a whole lot q
 Below is a picture of the API's Swagger page:
 
 <img width="941" alt="swagger" src="https://user-images.githubusercontent.com/100349697/203651788-a0f4b355-36d3-4c54-bb5c-404de9b91760.png">
+
+#### Database & Persistance
 
 Finally, this back-end is connected to an SQL database. I access and alter the data in there using Entity Framework as my ORM of choice in my back-end. This is due to past expecience with it from my group project in semester 2, and also due to a good amount of recommendations online after some quick research. This back-end is currently only available locally on my laptop, where I use SQL Server to access it.
 
@@ -110,7 +122,7 @@ To keep track of the progression of the user stories listed above, as well as ot
 
 <img width="853" alt="trello" src="https://user-images.githubusercontent.com/100349697/203642404-81dc53ed-580b-4d45-9bdf-01a470eec58c.png">
 
-#### Prioritization
+#### Prioritisation
 I have prioritized these user stories based on urgency and neccessity using the MoSCoW method:
 
 | Must Have  | Should Have | Could Have | Won't Have |
@@ -159,19 +171,23 @@ I used SonarCloud to review my back-end project. This program checks for any bug
 
 (This screenshot was taken when I didn't have a lot of tests yet, so the coverage percentage shown here is higher in actuality.)
 
-### Testing & Testplan
+### Testing
+
+#### Testplan
 
 My testplan is quite simple. I plan to create unit- and integration tests for my back-end, for testing logic and connections. This will be done using MSTest projects. I chose to use MSTest over something like xUnit because I personally find MSTest a bit more clear, with test methods actually being called *TestMethod* instead of something kind of vague like *Fact*. The logic tested is the save file editing I do in my back-end, which requires the serialising and deserialising of the JSON save files. Thankfully since the game was written in C#, I can use the exact same classes for serialisation. Integration tests will be done on my controllers, by using "fake" HTTP client to make requests to the controllers. I will make calls to these controllers which should then return data from an in-memory database.
 
 As for the front-end, aside from Google Lighthouse scans every so often, I plan on doing usability tests to make sure my site is easily navigatable. These usability tests will be done by asking fellow students and a few friends (some of which are also knowledgeable on web development, and some are not) to do simple tasks on the site, like registering an account and playing the game. Aside from playing the game, there aren't many other features to utelise, so I plan on asking them to navigate to other pages and change game settings like audio volume and screen size. Aside from that, I'll ask them about the website's style. All this is to gather feedback for potential improvement.
 
-Currently, I have written a few unit and integration tests for my back-end through two MSTest projects in the same solution as my back-end. 
+#### Unit Tests
 
 The unit tests test the save data alteration I do in my back-end's service classes, which is pure logic. An example can be found below:
 
 <img width="564" alt="unit test" src="https://user-images.githubusercontent.com/100349697/203649883-61447b46-c04d-4d5f-89c3-50d1b0d439fd.png">
 
 In this test, I simulate buying an item, and thus testing the logic behind adding this item to the save file, while also making sure to subtract the correct price from the users balance. This is all checked at the end. 
+
+#### Integration Tests
 
 My integration tests test the connection to the back-end, and by extension the database. An example can be found below:
 
@@ -184,6 +200,8 @@ In this test, I simulate the process of adding a new user to the database. This 
 This function is called in the test class' constructor, so the *client* being called in the example test method above (at *client.PostAsync*) is using the in-memory database. Like I said, this in-memory database is instantiated in the constructor, where it's also filled with some data for testing *GET*, *PUT* and *DELETE* calls:
 
 <img width="520" alt="constructor" src="https://user-images.githubusercontent.com/100349697/205496827-57cc1a47-1813-41b2-b093-4025b93ace9b.png">
+
+#### Usability Tests
 
 ### Performance
 
