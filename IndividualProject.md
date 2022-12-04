@@ -43,14 +43,7 @@ This website has a front end made in the React.JS framework, with a back end wri
 The game is a Unity WebGL project with scripts written in C# and is displayed on the website with the help of the React-Unity-WebGL package for React. 
 This package also gives access to the ability to send data both from website to game and vice-versa.
 
-The game is a turn-based RPG dungeon crawler, based on the Shin Megami Tensei/Persona franchises, 
-in which you explore randomly generated mazes filled with enemies and treasure. The farther you explore, the tougher the enemies and the better the rewards. 
-I chose to make a game of this genre, because it allows for a lot of directions to take with the website. 
-For example, normally in a game like this there are shops where you can buy items and equipment for your characters. 
-With this website setup, I can handle this in on the website side of things. Certain UI elements could also be displayed on the website instead of in-game, 
-so these won’t block your view. There’s a lot of numbers involved for a lot of different types of entities in a game like this, 
-so adding a sort of game guide for lost players to the website would be a good idea too. 
-I could also allow for players to see other players’ progress, and possibly even create a system where players could interact with each other.
+The game is a turn-based RPG dungeon crawler, based on the Shin Megami Tensei/Persona franchises, specifically Persona 3. This game, and by extension, the rest of the franchise, was fresh on my mind since I had  played through the entire 80-ish hour experience over the course of a year and thoroughly enjoyed it, with me finishing it right before the end of summer break. In the game, you explore randomly generated mazes filled with enemies and treasure. The farther you explore, the tougher the enemies and the better the rewards. A game of this genre would be a good fit for a website setup too, because it allows for a lot of directions to take with the website. For example, normally in a game like this there are shops where you can buy items and equipment for your characters. With this website setup, I can handle this in on the website side of things. Certain UI elements could also be displayed on the website instead of in-game, so these won’t block your view. There’s a lot of numbers involved for a lot of different types of entities in a game like this, so adding a sort of game guide for lost players to the website would be a good idea too. I could also allow for players to see other players’ progress, and possibly even create a system where players could interact with each other.
 
 To give each player a way to save their own progression, I made a saving system in Unity that saves a players’ progress to a JSON file. 
 The contents of this file can easily be saved to an external SQL database that both the game and the website can access. 
