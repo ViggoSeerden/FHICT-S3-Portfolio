@@ -1,5 +1,5 @@
-# Group Project: Tartarus Simulator
-### By Viggo Seerden (In Collaboration with Abe van der Werf, Josian Efferen, Niels Feijen & Vincent Vermiere)
+# Group Project: iO Colleague Tracker
+### By Viggo Seerden (In Collaboration with Abe van der Werf, Josian van Efferen, Niels Feijen & Vincent Vermiere)
 Student no. 491216
 
 <img alt="io" src="https://user-images.githubusercontent.com/100349697/203783153-01b59778-a7cd-4ece-a499-039884d3965d.png" width="50%" height="50%" />
