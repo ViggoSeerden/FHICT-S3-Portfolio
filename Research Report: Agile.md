@@ -9,6 +9,7 @@ By Viggo Seerden
   - [Scrum](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#scrum)
   - [Kanban](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#kanban) 
   - [Lean](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#lean)
+  - [My choice and recommendation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#my-choice-and-recommendation)
 - [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#sources)
 
 ## Introduction
@@ -58,6 +59,8 @@ I chose three of these frameworks to delve deeper into, to get a better understa
 ### Kanban
 
 ### Lean
+
+### My choice and recommendation
 
 ## Sources
 
