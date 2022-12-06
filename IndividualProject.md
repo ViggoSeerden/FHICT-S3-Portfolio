@@ -10,7 +10,7 @@ Student no. 491216
   - [Technology Stack](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#technology-stack)
     - [Front-End](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#front-end)
     - [Back-End](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#back-end)
-    - [Database & Persistance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#database--persistance) 
+    - [Database & Persistence](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#database--persistence) 
 - [Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#documentation)
   - [User Stories](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#user-stories)
     - [Prioritisation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#prioritisation)    
@@ -78,7 +78,7 @@ Below is a picture of the API's Swagger page:
 
 <img width="941" alt="swagger" src="https://user-images.githubusercontent.com/100349697/203651788-a0f4b355-36d3-4c54-bb5c-404de9b91760.png">
 
-#### Database & Persistance
+#### Database & Persistence
 
 Finally, this back-end is connected to an SQL database. I chose to use an SQL-based database as opposed to a NoSQL one, again, due to experience and it saving time. I do have to admit, though, that a NoSQL database actually might have been the better choice, due to my current database not having any relations between tables, and because I save JSON savefiles in my database. 
 
