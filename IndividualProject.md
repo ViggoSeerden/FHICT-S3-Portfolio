@@ -19,12 +19,11 @@ Student no. 491216
   - [UI](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#ui)
   - [UX](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#ux)
 - [Quality Assurance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#quality-assurance)
-  - [Code Analysis](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#code-analysis)
   - [Testing](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#testing)
-    - [Testplan](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#testplan)
     - [Unit Tests](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#unit-tests)
     - [Integration Tests](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#integration-tests)
-    - [Usability Tests](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#usability-tests)   
+    - [Usability Tests](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#usability-tests)
+  - [Code Analysis](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#code-analysis)   
   - [Performance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#performance)
   - [Security](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#security)  
 - [Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#release-management)
@@ -50,11 +49,11 @@ The contents of this file can easily be saved to an external SQL database that b
 These save files can also be encrypted to prevent anyone from cheating and manually altering the save file.
 
 ### Technology Stack
-This project (as of now) consists of two React frontends, one of which is an admin frontend, a .NET backend, and an SQL database. My choices for these options are as follows:
+This project (as of now) consists of two React front-ends, one of which is an admin front-end, a .NET back-end, and an SQL database. My choices for these options are as follows:
 
 #### Front-End
 
-For the frontend, I chose to use React.JS. Personally, I've never worked with a JavaScript-based frontend (or backend, for that matter), 
+For the front-end, I chose to use React.JS. Personally, I've never worked with a JavaScript-based front-end (or back-end, for that matter), 
 so I had no experience or knowledge about any possible option. React, along with Vue and Angular, where the example/recommended options listed on Canvas, 
 so I decided to choose one of these three. After I thought of the initial idea behind my project, 
 I did some research into each of these options and their compatability with Unity WebGL games. I quickly found React-Unity-WebGL, 
@@ -62,18 +61,18 @@ a package for React that gave me everything I'd need, with a clear,
 straight to the point documentation that even a newcomer like me could understand on it's installation, uses and functions. Aside from this, 
 React was the only one I'd heard of before, and it was often recommended by others, so this choice was easy for me to make.
 
-Below is a picture of the frontend/website:
+Below is a picture of the front-end/website:
 
 <img width="941" alt="site" src="https://user-images.githubusercontent.com/100349697/203651773-c6737cf1-4e6f-4d63-98b4-6f2b70313b26.png">
 
 #### Back-End
 
-For the backend, I originally wanted to go with Java. Like with the frontend, I looked at the recommendations on Canvas for this one. 
+For the back-end, I originally wanted to go with Java. Like with the front-end, I looked at the recommendations on Canvas for this one. 
 I'd already used the other recommendation, .NET/C#, in both Semesters 1 and 2 for pretty much everything, so I thought it'd be nice to learn another language.
 After a few weeks of developing the game, and doing some research on Java, I changed my mind on this. I had already spent a good amount of time on the game,
 so I had some catching up to do for the rest of the project. It's because of this that I ended up going with .NET instead. I was gonna need my time, 
-since I didn't just have a website/frontend and API/backend to build from scratch, but also a reasonably big game to make.
-My previous experience with .NET would make developing the backend a whole lot quicker, so that's what ended up being used. I should also quickly mention the game. Since it's made in Unity, the scripts are written in C#. This is the standard language Unity uses, so I stuck with it. But this was another reason for me to use .NET for my backend API, since I could use the same save data classes and even some logic that I used in the game without issue. This made some user stories a lot easier to realise, and ended up saving me a lot of time.
+since I didn't just have a website/front-end and API/back-end to build from scratch, but also a reasonably big game to make.
+My previous experience with .NET would make developing the back-end a whole lot quicker, so that's what ended up being used. I should also quickly mention the game. Since it's made in Unity, the scripts are written in C#. This is the standard language Unity uses, so I stuck with it. But this was another reason for me to use .NET for my back-end API, since I could use the same save data classes and even some logic that I used in the game without issue. This made some user stories a lot easier to realise, and ended up saving me a lot of time.
 
 Below is a picture of the API's Swagger page:
 
@@ -85,9 +84,11 @@ Finally, this back-end is connected to an SQL database. I access and alter the d
 
 ## Documentation
 
+Keeping documentation of my application helps me stay organised during development, and is important for any outsiders to get an idea of how everything was put together. 
+
 ### User Stories
 Below are the user stories I made. These are for the website, not for the game, since the game isn't a required product for this semester. I chose to write user stories instead of requirements due to them being more flexible compared to requirements.
-First some quick terminology on the customers in the user stories:
+First some quick terminology on the people mentioned in the user stories:
 
 - The website visitor is just that: Someone visiting the website who doesn't have an account.
 - The website user is someone with an account.
@@ -144,6 +145,8 @@ Container:
 
 ## UI/UX
 
+Making my website look appealing to potential users, while also keeping the experience nice. Below, you'll find what I've done to achieve this, explained in detail.
+
 ### UI
 
 Since I based my website and game on an existing piece of media, specifically the game Persona 3, I tried to apply a similar style to my website. The Persona series is well known for it's art styles. Every game in the series has one color that's used throughout the entire game for it's UI. In Persona 3's case, that's blue, however in some parts of the game, specifically the parts that inspired my project, it's green, so that's the color I mainly used, with hints of blue here and there. For context, the blue is used in the non-dungeon crawling parts of the game, which aren't in my game at all, however, that's not to say that the blue doesn't appear in these parts of the game. First of all, I created a logo using elements from Persona 3:
@@ -158,23 +161,38 @@ On the website, the background is an image of Tartarus, with a looping subtle gr
 
 ### UX
 
+I implemented some basic features and quality-of-life features into the website. The main thing related to this is the navigation bar at the top of the page. This was made with the Canvas course on user experience. This meant designing the navigation system while keeping the following questions in mind:
+
+- Where am I
+- How did I get here?
+- What can I do here?
+- Where can I go from here?
+
+My site isn't that much of a maze of pages, thankfully. This means that there aren't many pages only accessible through other specific pages. In fact, there would've  only been two pages for which this is the case; the player profiles and trading screen. These generally aren't pages you'd need to access frequently though, so it's all good, and in the case of player profiles, there's a whole pages dedicated to accessing those under the Players tab on the navbar. I kept the page names as simple and clear as possible. While I could've been more creative with some of them (I was originally planning to name the Players page "Player Hub"), keeping things straightforward reduces the chance of raising any questions among potential visitors. Aside from that, there are a few pages related to your own account hidden in a sub-menu, which is shown when hovering over your username in the navbar while logged in:
+
+![Screenshot (6)](https://user-images.githubusercontent.com/100349697/205982799-d21e104d-7f22-44e2-b9eb-578ade46241a.png)
+
+These all belong to the same category, so keeping them together seemed like a good idea. Not to mention the fact that many other sites and apps do the same practice of categorising pages under sub-menus, most commonly for things relating to user accounts like what I did here. It also makes the navbar feel less cluttured and cramped, in my opinion at least.
+
+Navigation isn't the only part of UX, though. Canvas mentions *adjusting the design to suit your end-users* and *designing a corporate identity for the webpage in accordance with your client*. There's no real client in the individual project, but I can design my website to appeal to my end-users. I've already explained my mindset when designing the UI for the general front-end above, so there's no need to go over it again. My admin front-end, however, lacks any style to be spoken of:
+
+<img width="640" alt="admin" src="https://user-images.githubusercontent.com/100349697/205984324-a3bda83e-9dca-43a3-b967-188ccc946a20.png">
+
+An admin front-end doesn't really need any style, though. Keeping things "professional" is probably more suitable for content management. Packing this site with fun colors and shapes can be very distracting. Now obviously what I have here may be a bit too minimalistic, but I don't feel any need to make things much more complex than this, with the time I have for this project. The same navigation philosophy applies to the admin front-end, though. Quick navigation may very well improve productivity for content management, after all. 
+
+Aside from everything mentioned above, I performed some usability tests. More on these can be found under the corresponding heading.
+
 ## Quality Assurance
 
-### Code Analysis
-
-I used SonarCloud to review my back-end project. This program checks for any bugs, unneccessary code, unoptimal code, and security risks, and gives advice and explanations about why a part of my code is classified as such, should it detect any of the above mentioned issues. My code passed every section with an A, and the quality gate is marked as passed. However, SonarCloud doesn't natively support tested code coverage for .NET projects, so I had to use an external dotnet package which allows for SonarCloud to display this too. There were a few options listed on SonarCloud's own site, and I went with the package *dotnet-coverage*, since it's a more modern and more accessible version of an official Microsoft option which was also listed.
-
-<img width="823" alt="sonar" src="https://user-images.githubusercontent.com/100349697/205058215-83e64fb2-c476-4922-98f5-7e5f8f51f27b.png">
-
-(This screenshot was taken when I didn't have a lot of tests yet, so the coverage percentage shown here is higher in actuality.)
+Ensuring the quality of software is an important task. Creating an application held together by ducktape isn't only a hinderance to users, but also to developers. To circumvent this, there are several measures you can take. I have chosen to perform several types of tests, use a static code analysis tool, pay mind to performance using scanning tools, and implement some features for securities' sake, to create an application of quality.
 
 ### Testing
 
-#### Testplan
-
-My testplan is quite simple. I plan to create unit- and integration tests for my back-end, for testing logic and connections. This will be done using MSTest projects. I chose to use MSTest over something like xUnit because I personally find MSTest a bit more clear, with test methods actually being called *TestMethod* instead of something kind of vague like *Fact*. The logic tested is the save file editing I do in my back-end, which requires the serialising and deserialising of the JSON save files. Thankfully since the game was written in C#, I can use the exact same classes for serialisation. Integration tests will be done on my controllers, by using "fake" HTTP client to make requests to the controllers. I will make calls to these controllers which should then return data from an in-memory database.
+My testplan is quite simple. I plan to create unit- and integration tests for my back-end, for testing logic and connections. This will be done using MSTest projects. I chose to use MSTest over something like xUnit because I personally find MSTest to be a bit more clear with it's keywords, with test methods actually being called *TestMethod* instead of something kind of vague like *Fact*. The logic tested is the save file editing I do in my back-end, which requires the serialising and deserialising of the JSON save files. Thankfully since the game was written in C#, I can use the exact same classes for serialisation. Integration tests will be done on my controllers, by using "fake" HTTP client to make requests to the controllers. I will make calls to these controllers which should then return data from an in-memory database.
 
 As for the front-end, aside from Google Lighthouse scans every so often, I plan on doing usability tests to make sure my site is easily navigatable. These usability tests will be done by asking fellow students and a few friends (some of which are also knowledgeable on web development, and some are not) to do simple tasks on the site, like registering an account and playing the game. Aside from playing the game, there aren't many other features to utelise, so I plan on asking them to navigate to other pages and change game settings like audio volume and screen size. Aside from that, I'll ask them about the website's style. All this is to gather feedback for potential improvement.
+
+Aside from this, I will keep track of the performance of my websites using Google Lighthouse, and get my code analysed using SonarCloud. I can get an idea of what needs to be improved or changed in my front-end and back-end respectively. Google Lighthouse can give me an idea of what performance gains can be made, no matter how big or small, while also giving some insights on some small user experience improvements that could be made. SonarCloud can not only tell me what parts of my code could be optimised, but it can also detect bugs, security risks, and duplications, alongside tracking test code coverage using an extra package for .NET.
 
 #### Unit Tests
 
@@ -200,6 +218,16 @@ This function is called in the test class' constructor, so the *client* being ca
 
 #### Usability Tests
 
+Still gotta do it to 'em
+
+### Code Analysis
+
+I used SonarCloud to review my back-end project. This program checks for any bugs, unneccessary code, unoptimal code, and security risks, and gives advice and explanations about why a part of my code is classified as such, should it detect any of the above mentioned issues. My code passed every section with an A, and the quality gate is marked as passed. However, SonarCloud doesn't natively support tested code coverage for .NET projects, so I had to use an external dotnet package which allows for SonarCloud to display this too. There were a few options listed on SonarCloud's own site, and I went with the package *dotnet-coverage*, since it's a more modern and more accessible version of an official Microsoft option which was also listed.
+
+<img width="823" alt="sonar" src="https://user-images.githubusercontent.com/100349697/205058215-83e64fb2-c476-4922-98f5-7e5f8f51f27b.png">
+
+(This screenshot was taken when I didn't have a lot of tests yet, so the coverage percentage shown here is higher in actuality.)
+
 ### Performance
 
 I have been continuously monitoring my websites performance using Google Lighthouse as seen below:
@@ -213,6 +241,8 @@ Every so often, usually after adding features or style changes, I run a Lighthou
 My website relies on accounts to work properly, since I want every user to have their onw save file for the game. This means my website needed some form of authentication. I decided to use Sign in with Google for this. Being able to create accounts using Google means that pretty much most people nowadays can easily create an account due to Google's popularity. The Sign in with Google feature itself is also incredibly popular, which meant proper documentation was easily accessible. But I also chose this for security reasons. There's simply no way I can create a more secure login system by myself with my current knowledge and time constraints. Google is also a trusted name worldwide. There are a few downsides to this, though. First of all, any potential users would have to trust me not to misuse their data, which is easier said than done, however, since I have no plans of publicly launching this website, that's not a concern. But aside from that, I have to rely on Google to keep my system working as expected. If Google were to go down, even just temporarily, my webiste would lose over half of it's functionality. I'm not worried about this, since I doubt something as big as Google's servers and databases and whatnot would go down so easily, but it is a risk nonetheless. There's also the risk of Google deciding the Sign in with Google feature is no longer needed and pulling support for whatever reason, and them either creating a new system entirely, or not making one anymore at all. Replacing an existing system with a new one has already happened fairly recently with OAuth 2.0, whose days of support are numbered. But the chances of this happening anytime soon are incredibly low, so i'm not worried about that either. As you can see, to me, the good easily outweighs the bad, so I think Sign in with Google was a good option to go with.
 
 Aside from this, I have implemented a security measure within the Unity project, which gives me the option to encrypt save files before saving them. This is done using *X-OR encryption*. Data protection was one of the topics for my research reports, and encryption is one way to protect data. It should be mentioned that, throughout this project, this option has been turned off for debugging purposes.
+
+Finally, using SonarCloud, I can see any possible security risks that appear in my code. Some of these are classified as vunerabilities immediatly, while others are put aside for me to review manually. Thankfully, despite the usefull feature, I haven't run into any major risks yet. Only a few minor things for me to review, which all turned out to be fine.
 
 ## Release Management
 
