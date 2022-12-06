@@ -80,7 +80,9 @@ Below is a picture of the API's Swagger page:
 
 #### Database & Persistance
 
-Finally, this back-end is connected to an SQL database. I access and alter the data in there using Entity Framework as my ORM of choice in my back-end. This is due to past expecience with it from my group project in semester 2, and also due to a good amount of recommendations online after some quick research. This back-end is currently only available locally on my laptop, where I use SQL Server to access it.
+Finally, this back-end is connected to an SQL database. I chose to use an SQL-based database as opposed to a NoSQL one, again, due to experience and it saving time. I do have to admit, though, that a NoSQL database actually might have been the better choice, due to my current database not having any relations between tables, and because I save JSON savefiles in my database. 
+
+I access and alter the data in there using an ORM in my back-end. An ORM is a technique used to establish a connection between a relational database and an object oriented programming language. This pretty much means the conversion of a OOP object to database-compatible data to be stored after a system or program is shut down, and vice-versa, also known as data persistance. My choice ended up being Entity Framework. This is, once more, due to past expecience with it from my group project in semester 2, and also due to a good amount of recommendations online after some quick research for .NET ORMs. The other most popular option that I came accross while searching for recommendations from fellow programmers (aside from writing pure SQL) is Dapper, which is classified as a micro ORM (which only does the O and M in ORM). The most prominent reason as to why someone would choose Dapper over other ORMs is performance. However I found EF to perform just fine, so I don't feel to switch ORMs. Micro ORMs also lack features that I needed such as database migrations, which I used to generate tables using my domain models and migrations.  
 
 ## Documentation
 
