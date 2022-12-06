@@ -406,6 +406,14 @@ More examples can be found on Canvas.
 
 ### Reflection
 
+I'd like to reflect on some decisions I've made throughout the duration of this semester's IP. Getting the biggest thing out of the way first: The game. Like I mentioned before, I made a game which is playable on my website, however, my way of going about this was far from optimal. I'd spent the first six weeks of the semester developing the game in Unity. The development of this took up way more time than I would've liked to spent on it, let alone the extra time spent debugging and testing. This caused me to pretty much start this semester six weeks in, because the game did nothing for the learning outcomes. I had to make some "sacrifices" to catch back up, such as the idea to use a Java back-end instead of a .NET one. I even neglected asking feedback due to this, since I didn't think asking for feedback would be of any use for the game, since that's not what this semester is about at all. Thankfully I caught back up though. I'd also spent some timme documenting sources used for the development of the game, which wasn't really neccessary either.
+
+Another point of, for lack of a better term, regret, is that I feel like I got a bit too much help from classmates, specifically for setting the CI/CD. I had the whole CI/CD process set up for my front-end before really knowing what it all meant. Had I done more of my own research, it would've taken longer for sure, but I also would've had a way better understanding of it all.
+
+Finally, asking for feedback from the teachers a bit more frequently would've been favorable too. I also received this as feedback from Jean-Paul.
+
+Despite all of this, though, I can't say I'm dissapointed in what I was able to achieve. Game development is something I wanted to learn regardless of my choice of specialisation for semester 4 (which ended up being smart mobile), so getting to do it for a school project was an extra source of motivation to actually do it, even if it did cause some problems. Aside from that, learning how to create an API was fun, and setting up the CI/CD process was interesting and usefull too. UI/UX and some parts of quality assurance were fun to do too. I'm pretty proud of what I did this semester overall.
+
 ## Sources
 
 Sources used for the creation of the frontend and backend are found here
@@ -419,4 +427,4 @@ Sources used for the creation of the frontend and backend are found here
 - [This Article](https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows) for containerising a .NET app for Docker
 - [This Article](https://dotnetthoughts.net/dotnet-minimal-api-integration-testing/) for performing integration tests using an in-memory database in .NET REST API's.
 
-It should be noted that, for some parts of the process of building this project and reaching the desired learning outcomes, I received help from other students or studied other students' portfolio's.
+It should be noted that, for some parts of the process of building this project and reaching the desired learning outcomes, I received help from other students or studied other students' portfolio's. Several Canvas modules were used too, but that goes without saying.
