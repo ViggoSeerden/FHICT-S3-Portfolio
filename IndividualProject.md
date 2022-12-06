@@ -412,7 +412,7 @@ Another point of, for lack of a better term, regret, is that I feel like I got a
 
 Finally, asking for feedback from the teachers a bit more frequently would've been favorable too. I also received this as feedback from Jean-Paul.
 
-Despite all of this, though, I can't say I'm dissapointed in what I was able to achieve. Game development is something I wanted to learn regardless of my choice of specialisation for semester 4 (which ended up being smart mobile), so getting to do it for a school project was an extra source of motivation to actually do it, even if it did cause some problems. Aside from that, learning how to create an API was fun, and setting up the CI/CD process was interesting and usefull too. UI/UX and some parts of quality assurance were fun to do too. I'm pretty proud of what I did this semester overall.
+Despite all of this, though, I can't say I'm dissapointed in what I was able to achieve. Game development is something I wanted to learn regardless of my choice of specialisation for semester 4 (which ended up being smart mobile), so getting to do it for a school project was an extra source of motivation to actually do it, even if it did cause some problems. Aside from that, learning how to create an API was fun, and setting up the CI/CD process was interesting and usefull too. UI/UX and some parts of quality assurance were fun to do too. I also think I did a good job keeping my portfolio up to date, once I'd created it. I'm pretty proud of what I did this semester overall.
 
 ## Sources
 
