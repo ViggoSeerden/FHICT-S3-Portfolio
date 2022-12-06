@@ -3,13 +3,13 @@ By Viggo Seerden
 
 ## Table of Contents
 
-- [Introduction]
-- [What is agile?]
-- [How can we apply an agile way of working?]
-  - [Scrum]
-  - [Kanban] 
-  - [Lean]
-- [Sources]
+- [Introduction](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#introduction)
+- [What is agile?](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#what-is-agile)
+- [How can we apply an agile way of working?](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#how-can-we-apply-an-agile-way-of-working)
+  - [Scrum](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#scrum)
+  - [Kanban](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#kanban) 
+  - [Lean](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#lean)
+- [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#sources)
 
 ## Introduction
 
