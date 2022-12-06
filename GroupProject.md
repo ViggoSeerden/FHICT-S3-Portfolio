@@ -14,6 +14,8 @@ Student no. 491216
 - [Ethics](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#ethics)
 - [Business Process](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#business-process)
 - [Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#professionalism)
+  - [Feedback](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#feedback)
+  - [Reflection](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#reflection)
 
 ## Project Description
 
@@ -71,6 +73,8 @@ Below is a picture of our front-end GitHub repository:
 
 ## Professionalism
 
+### Feedback
+
 Throughout the semester, students are expected to show the teachers their work and ask for feedback on what they've made. Students can, of course, also reach out to teachers when a question arises. No matter the outcome or conclusion of one of these conversations, it's important to document them using Feedpulse on Canvas for possible future reference. This process is also one of the eight learning outcomes. I've shown my work on several occasions to the teachers, and have documented these conversations like expected. For the group project, we also have group and peer feedback, which are usually done at the end of a sprint. Finally, and probably most importantly for the group project, we also need to have frequent contact with the project stakeholder, in our case the people from iO. Like mentioned above, this was mainly done via Jira in the comments of issues, but also during our sprint retrospectives at iO's offices in Eindhoven.
 
 An example of feedpulse from a GP product can be found here:
@@ -78,3 +82,5 @@ An example of feedpulse from a GP product can be found here:
 <img width="641" alt="feedpulse GP" src="https://user-images.githubusercontent.com/100349697/203783530-ef620494-098b-411d-ae08-c07e1ca8c157.png">
 
 More examples of this can be found on Canvas.
+
+### Reflection
