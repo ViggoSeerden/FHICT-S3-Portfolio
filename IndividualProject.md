@@ -38,7 +38,7 @@ Student no. 491216
 
 ## Project Description
 For this project I decided to make a game playable on a website within your browser. 
-This game and the website the game is on will communicate with each other and can influence the contents displayed. 
+This game and the website the game will communicate with each other and can influence the contents displayed. 
 This website has a front end made in the React.JS framework, with a back end written in C#. 
 The game is a Unity WebGL project with scripts written in C# and is displayed on the website with the help of the React-Unity-WebGL package for React. 
 This package also gives access to the ability to send data both from website to game and vice-versa.
