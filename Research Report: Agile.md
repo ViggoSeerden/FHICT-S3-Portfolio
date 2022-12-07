@@ -18,14 +18,14 @@ The software development process can be quite messy. Not having a clear view on 
 
 ## What is agile?
 
-As mentioned above, Agile is one of several software development methodologies. Agile puts a big emphasis on flexibility, as opposed to something like the Waterfall methodology, which has a standard, structured path to follow during development. Other aspects of high importance within Agile are communication and efficiency. Agile is best explained by the Agile Manifesto, which defines the following four core values of Agile:
+As mentioned above, agile is one of several software development methodologies. Agile puts a big emphasis on flexibility, as opposed to something like the Waterfall methodology, which has a standard, structured path to follow during development. Other aspects of high importance within agile are communication and efficiency. Agile is best explained by the Agile Manifesto, which defines the following four core values of agile:
 
 - Individual interactions are of more importance than tools and processes
 - A working product is of higher urgence than thorough documentation
 - Collaboration with the stakeholders rather than contract negotiations
 - Capitalise on change instead of following a structured plan
 
-It should be noted that the opposites of each value are still valued within Agile, but to a lesser extent. Aside from these values, the Agile Manifesto also outlines the following 12 core principles of Agile:
+It should be noted that the opposites of each value are still valued within agile, but to a lesser extent. Aside from these values, the Agile Manifesto also outlines the following 12 core principles of agile:
 
 - Keeping the customer(s) satisfied throughout the project by continually delivering work
 - Changing requirements are welcomed, no matter how late in a project. Harness change for a competitive advantage
@@ -42,7 +42,7 @@ It should be noted that the opposites of each value are still valued within Agil
 
 ## How can we apply an agile way of working?
 
-There are several Agile based frameworks that can be used during the development process. Here I have listed some of them:
+There are several agile based frameworks that can be used during the development process. Here I have listed some of them:
 
 - Scrum
 - Kanban
@@ -66,7 +66,7 @@ The Scrum framework also defines roles for everyone involved. The development te
 
 Scrum puts an emphasis on communication between team members. I've already mentioned the retrospective, but Scrum also typically involves daily stand-ups, and possibly stand-downs, which are daily meetings led by the scrum-master and preferably held with the whole team present. During these, the team discusses what's going to be done, and what has been done previously, to get an idea of whether whatever has been worked on is going to be done in time. 
 
-Finally, Scrum defines 3 pillars, those being transparency, inspection and adaptation, which are supported by the 5 core values of Scrum:
+Finally, Scrum defines 3 pillars, those being transparency, inspection, and adaptation, which are supported by the 5 core values of Scrum:
 
 - Commitment: Everyone puts their all into the project
 - Focus: Everyone focuses on the tasks and goals of the sprint and team
@@ -85,3 +85,4 @@ Finally, Scrum defines 3 pillars, those being transparency, inspection and adapt
 - [Agile Software Development (Wikipedia)](https://en.wikipedia.org/wiki/Agile_software_development#Agile_software_development_practices)
 - [Agile Software Development (TechTarget)](https://www.techtarget.com/searchsoftwarequality/definition/agile-software-development)
 - [Agile Essentials (Agile Alliance)](https://www.agilealliance.org/agile-essentials/)
+- [What is Scrum (Scrum Company)](https://www.scrumcompany.nl/wat-is-scrum/)
