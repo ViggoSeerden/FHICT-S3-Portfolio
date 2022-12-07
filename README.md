@@ -1,6 +1,19 @@
 # FHICT-S3-Portfolio Viggo Seerden
 This is my portfolio for the third semester of the Fontys HBO ICT Software Course. In here you will find documents explaining what I've done this semester to reach the expected learning outcomes. I've documented everything about my individual project and my contributions to the group project as proof that I have been working towards these learning outcomes, alongside my research reports.
 
+## Table of Contents
+
+- [Learning Outcomes](https://github.com/ViggoSeerden/FHICT-S3-Portfolio#learning-outcomes)
+  - [Learning Outcome 1: Web Design](https://github.com/ViggoSeerden/FHICT-S3-Portfolio#1-you-design-and-build-user-friendly-full-stack-web-applications)
+  - [Learning Outcome 2: Quality Assurance](https://github.com/ViggoSeerden/FHICT-S3-Portfolio#2-you-use-software-tooling-and-methodology-that-continuously-monitors-and-improve-the-software-quality-during-software-development)
+  - [Learning Outcome 3: Agile](https://github.com/ViggoSeerden/FHICT-S3-Portfolio#3-you-choose-and-implement-the-most-suitable-agile-software-development-method-for-your-software-project)
+  - [Learning Outcome 4: Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio#4-you-design-and-implement-a-semiautomated-software-release-process-that-matches-the-needs-of-the-project-context)
+  - [Learning Outcome 5: Cultural Differences & Ethics](https://github.com/ViggoSeerden/FHICT-S3-Portfolio#5-you-recognize-and-take-into-account-cultural-differences-between-project-stakeholders-and-ethical-aspects-in-software-development)
+  - [Learning Outcome 6: Requirements & Design](https://github.com/ViggoSeerden/FHICT-S3-Portfolio#6-you-analyze-non-functional-requirements-elaborate-architectural-designs-and-validate-them-using-multiple-types-of-test-techniques)
+  - [Learning Outcome 7: Business Processes](https://github.com/ViggoSeerden/FHICT-S3-Portfolio#7-you-analyze-and-describe-simple-business-processes-that-are-related-to-your-project)
+  - [Learning Outcome 8: Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio#8-you-act-in-a-professional-manner-during-software-development-and-learning)
+- [Research Reports](https://github.com/ViggoSeerden/FHICT-S3-Portfolio#research-reports)
+
 ## Learning Outcomes
 
 ### 1. You design and build user-friendly, full-stack web applications.
