@@ -8,8 +8,7 @@ By Viggo Seerden
 - [How can we apply an agile way of working?](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#how-can-we-apply-an-agile-way-of-working)
   - [Scrum](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#scrum)
   - [Kanban](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#kanban) 
-  - [Lean](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#lean)
-  - [My recommendation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#my-recommendation)
+  - [Lean Software Development](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#lean-software-development)
 - [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#sources)
 
 ## Introduction
@@ -42,21 +41,21 @@ It should be noted that the opposites of each value are still valued within agil
 
 ## How can we apply an agile way of working?
 
-There are several agile based frameworks that can be used during the development process. Here I have listed some of them:
+There are several agile based frameworks that can be used during the development process, each with their own sets or standard principles and pracrices. Here I have listed some of them:
 
 - Scrum
 - Kanban
 - Extreme Programming
 - Crystal
-- Lean
+- Lean Software Development
 - Dynamic Systems Development Method
 - Feature-Driven Development
 
-I chose three of these frameworks to delve deeper into, to get a better understanding of how they are applied, possibly for future reference.
+I wanted to get a better understanding of the Scrum method specifically, alongside two other agile frameworks. I chose Kanban and Lean for me to delve deeper into, and compare them to the Scrum framework to see what sets them apart.
 
 ### Scrum
 
-Scrum is arguably the most popular Agile framework out there. Key elements of Scrum include splitting a project into several smaller iterations called sprints, which are typically abot 2-4 weeks each. At the end of each sprint, the team will look back on said sprint in a retrospective, discussing what wen't well and what didn't, while also planning what the next sprints goals will be. 
+Scrum is arguably the most popular agile framework out there. Key elements of Scrum include splitting a project into several smaller iterations called sprints, which are typically abot 2-4 weeks each. At the end of each sprint, the team will look back on said sprint in a retrospective, discussing what wen't well and what didn't, while also planning what the next sprints goals will be. 
 
 These goals tend to take the form of small tasks that, together, create the desired end product. In software, these are usually features of a piece of software. These small tasks are formatted as user stories, which describe the neccessary behavior and functions of the desired end product from the end users point of view. User stories provide an extra level of flexibility when compared to requirements, for example. This is because user stories don't define an immediate solution, set of tools, or any other details, but only the end result. User stories for a software project don't have to be features, though. They can also be bug fixes or non-functional aspects of an application. To estimate how difficult or how much time or effort a user story is going to take, story points are assigned to them. The higher the amount of story points, the more effort it will take to finish. These can be measured at the end of a sprint during the retrospective to find possible points of improvement for the development process. The progression of a sprint with user stories and story points can be visualised in a burndown chart, which shows the amount of work to be done (usually measured in story points) against the amount of time left in the form of a line graph, which also contains an "ideal" line for the sake of comparison. User stories can also be given acceptance criteria beforehand, which indicates an end result that should be met before the task can be seen as done.
 
@@ -76,9 +75,34 @@ Finally, Scrum defines 3 pillars, those being transparency, inspection, and adap
 
 ### Kanban
 
-### Lean
+Kanban is another popular framework, which is meant to define, manage and improve processes, and puts an emphasis of visualising these processes, and carrying them out one step at a time. Kanban defines 6 core principles:
 
-### My recommendation
+- Visualise as much as possible, to help stay organised and provide transparency to the team
+- Limit the workload at each time, to decrease the chance of confusion and stress and increase focus
+- Manage the workflow, by visualising the project and limiting the workload, which in turn means the board is updated often
+- Make explicit agreements, to establish default practices among the team
+- Implement feedback loops in a timely manner, to improve the quality of the product
+- Continuously improve and experiment, to evolve the team
+
+The most important part of this framework is the Kanban board, which is how the process is visualised and optimised. A basic Kanban board consists of three categories: To Do, In Progress, and Done, with the In Progress section having a limit on how many tasks it can contain. More categories can be added, should this be neccessary. Every task is represented by a Kanban card, which is placed in one of the categories on the board. These cards contain information about the task it represents, such as a brief description or who is working on it, which helps with staying organised. This board is there to provide the whole team with information on across the whole project.
+
+It differs from Scrum in a number of ways. The first being that Kanban doesn't make use of sprints or anything of the sort; it's all one continuous workflow. Kanban also doesn't require any role assignments to be done, as opposed to Scrum, in which every project needs at least a product owner, scrum master and development team. Finally, the practices differ. Scrum's default practices are all about looking back and planning the near future, which is done through the sprint backlogs, daily stand-ups, and sprint reviews/retrospectives. Kanban's default practices reflect it's idealogy of process visualisation, with the Kanban board, alongside the limit on work-in-progress tasks, flow management, and feedback loops. 
+
+### Lean Software Development
+
+Lean Software Development, or LSD for short, is an agile framework based on the principles of Lean Manufacturing, and focusses on optimising development times and products, while eliminating waste and providing the product with neccessary inclusions. This way of working is also known as the Minimum Viable Product. LSD defines the following 7 principles:
+
+- Eliminate waste, by e.g reducing workload, unneccessary code, performance bottlenecks
+- Build quality in, by monitoring and judging quality as much as possible and wherever possible
+- Create knowledge, by encouraging practices like pair programming and code reviews
+- Defer commitment, by keeping the option to alter anything as much as possible in the case of an inapplicable product
+- Respect people, by empowering colleagues and providing them with a level of freedom and authority
+- Optimize the whole, instead of optimising on a smaller level
+- Deliver fast, by splitting tasks into smaller ones for faster completion and easier problem detection
+
+Aside from these principles, there are five Lean Manufacturing practices that can be used to effectively apply LSD. The first of which being identifying value, which is done from the end users point of view, and is defined by what the customer is willing to pay for. Next is mapping the value stream, which means laying out a plan to delivering a feature or update, after the value has been defined and turned into a tangible goal. This is followed by creating a flow, or spotting and fixing potential bottlenecks in the process of development and delivery, usually done through visualisation. Then comes establishing pull, which means only doing what needs doing, and when it needs doing. Finally comes seeking perfection, which means repeating and reviewing the whole development process continuously.
+
+LSD differs from Scrum in that it focusses more on optimising the ongoing process by reducing waste, while Scrum is more centered around working in smaller iterations planned out beforehand, and creating a user-centered product. The scale on which it is implemented is also different. Scrum is implemented on a team-by-team basis, while LSD is a company- or project-wide implementation.
 
 ## Sources
 
@@ -86,3 +110,11 @@ Finally, Scrum defines 3 pillars, those being transparency, inspection, and adap
 - [Agile Software Development (TechTarget)](https://www.techtarget.com/searchsoftwarequality/definition/agile-software-development)
 - [Agile Essentials (Agile Alliance)](https://www.agilealliance.org/agile-essentials/)
 - [What is Scrum (Scrum Company)](https://www.scrumcompany.nl/wat-is-scrum/)
+- [Burndown Chart (AgileScrumGroup)](https://agilescrumgroup.nl/burndown-chart/)
+- [What is Kanban (AgileScrumGroup)](https://agilescrumgroup.nl/wat-is-kanban-methode/)
+- [What is Kanban (Atlassian)](https://www.atlassian.com/agile/kanban)
+- [Kanban vs. Scrum (Atlassian)](https://www.atlassian.com/agile/kanban/kanban-vs-scrum)
+- [What is Lean Software Development(ToolsHero)](https://www.toolshero.nl/informatie-technologie/lean-software-development/)
+- [Lean Software Development Guide (Railsware)](https://railsware.com/blog/lean-software-development-guide/#Lean_software_development_tools_and_processes)
+- [The 5 Lean Principles (BureauTromp)](https://bureautromp.nl/5-principes-lean/)
+- [Lean vs. Scrum (MondayBlog)](https://monday.com/blog/project-management/lean-vs-scrum/)
