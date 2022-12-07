@@ -394,19 +394,13 @@ This one does simillar things like installing the packages from package.json and
 
 ## Business Process
 
-A business process is a 
+A business process is a sequence of events that lead to a desired end result, done step by step with possible branching paths leading to different results or extra steps. These can be visualised to get a clear view of the process as a whole, and can help with spotting possible bottlenecks or waste that hinder the efficiency of said process. The visualisation of one is called a Business Process Model and Notation Diagram, or BPMN Diagram for short. With software, a lot of these processes can be optimised even further, through the use of automating parts of a process and storing and accessing data in databases. 
 
-I wanted to try and create a business process for my website. This was easier said than done, since my website isn't one that's used in a professional environment, so it took some creativity to figure out how I'd go about this. I decided to make two different processes; one for a user playing the game, and one for an admin managing the site content using the admin front-end.
-
-Here is the first process:
+I wanted to try and create a business process for my website. This was easier said than done, since my website isn't one that's used in a professional environment, so it took some creativity to figure out how I should go about doing this. I decided to make a process that visualises a website visitor, either recurring or new, playing the game, with possible saving and loading of save data and using the game guide on the website: 
 
 ![process drawio (3)](https://user-images.githubusercontent.com/100349697/206201530-29770481-daf5-4f57-a5ef-4a050758314d.png)
 
 This process follows a user simply playing the game, with a few branching paths which determine some optional steps. First of all, after a person visits the website, the question arises of whether the visitor has an account. If they do, they log in. If not, they want to create an account. This raises another question: Does this user have a Google account to register themselves with? If they do, they register. If not, they don't. Every path eventually leads to them navigating to the game page. This leads to another split path. If the user is logged in, and has a save file, the save file gets loaded. If not, it gets created on the spot. If the user isn't logged in, they start playing the game as a guest player. During the game, the player might get stuck. Should this be the case, they can navigate to the game guide page, and look up the information that they need to keep playing. Finally, after the user is done playing, and if they are logged in, their game progress gets saved. After this, the user leaves the website, and thus reaches the end of the process. This is a pretty standard process which is entirely defined by the users choices, so there isn't much I could do to improve it. Things I did do to improve the flow of it all is automating the saving and loading systems, and making navigation as clear as possible. 
-
-The second process is as follows:
-
-
 
 ## Professionalism
 
