@@ -394,6 +394,14 @@ This one does simillar things like installing the packages from package.json and
 
 ## Business Process
 
+I wanted to try and create a business process for my website. This was easier said than done, since my website isn't one that's used in a professional environment, so it took some creativity to figure out how I'd go about this. I decided to make three different processes; one for a user playing the game, one for a user reporting a bug to an admin, and one for an admin managing the site content using the admin front-end.
+
+Here is the first process:
+
+![process drawio (2)](https://user-images.githubusercontent.com/100349697/206194538-be6aabc6-fe45-4339-9caa-cc725d76b010.png)
+
+This process follows a user simply playing the game, with a few branching paths which determine some optional steps. First of all, after a person visits the website, the question arises of whether the visitor has an account. If they do, they log in. If not, they want to create an account. This raises another question: Does this user have a Google account to register themselves with? If they do, they register. If not, they don't. Every path eventually leads to them navigating to the game page. This leads to another split path. If the user is logged in, and has a save file, the save file gets loaded. If not, it gets created on the spot. If the user isn't logged in, they start playing the game as a guest player. During the game, the player might get stuck. Should this be the case, they can navigate to the game guide page, and look up the information that they need to keep playing. Finally, after the user is done playing, and if they are logged in, their game progress gets saved. After this, the user leaves the website, and thus reaches the end of the process.
+
 ## Professionalism
 
 ### Feedback
