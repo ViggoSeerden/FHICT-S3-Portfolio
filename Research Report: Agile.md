@@ -9,7 +9,7 @@ By Viggo Seerden
   - [Scrum](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#scrum)
   - [Kanban](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#kanban) 
   - [Lean](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#lean)
-  - [My choice and recommendation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#my-choice-and-recommendation)
+  - [My recommendation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#my-recommendation)
 - [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#sources)
 
 ## Introduction
@@ -56,11 +56,29 @@ I chose three of these frameworks to delve deeper into, to get a better understa
 
 ### Scrum
 
+Scrum is arguably the most popular Agile framework out there. Key elements of Scrum include splitting a project into several smaller iterations called sprints, which are typically abot 2-4 weeks each. At the end of each sprint, the team will look back on said sprint in a retrospective, discussing what wen't well and what didn't, while also planning what the next sprints goals will be. 
+
+These goals tend to take the form of small tasks that, together, create the desired end product. In software, these are usually features of a piece of software. These small tasks are formatted as user stories, which describe the neccessary behavior and functions of the desired end product from the end users point of view. User stories provide an extra level of flexibility when compared to requirements, for example. This is because user stories don't define an immediate solution, set of tools, or any other details, but only the end result. User stories for a software project don't have to be features, though. They can also be bug fixes or non-functional aspects of an application. To estimate how difficult or how much time or effort a user story is going to take, story points are assigned to them. The higher the amount of story points, the more effort it will take to finish. These can be measured at the end of a sprint during the retrospective to find possible points of improvement for the development process. The progression of a sprint with user stories and story points can be visualised in a burndown chart, which shows the amount of work to be done (usually measured in story points) against the amount of time left in the form of a line graph, which also contains an "ideal" line for the sake of comparison. User stories can also be given acceptance criteria beforehand, which indicates an end result that should be met before the task can be seen as done.
+
+To help with organising, a tool called a Scrumboard is used. These give an overview of every task that needs to be done, is being worked on, and is already done. Every task can be found in a list called the product backlog. At the start of each sprint, a sprint backlog is created, containing tasks from the product backlog to be done that sprint.   
+
+The Scrum framework also defines roles for everyone involved. The development team is self-organising, as the Agile principles say. The product owner is the one who carries responsibility over the product. They can set priorities on tasks, steer the team in the right direction, and should be capable of making the right decisions on the spot. The scrum-master is a sort of coach for both the team and the product owner, helping everyone work optimally. They provide an overview and efficiency for the project. Finally, there's the stakeholders of the project. These can be either the customer base or the end users of your product. They are the ones who define the base user stories and direction of the project, while also providing feedback on the teams work.
+
+Scrum puts an emphasis on communication between team members. I've already mentioned the retrospective, but Scrum also typically involves daily stand-ups, and possibly stand-downs, which are daily meetings led by the scrum-master and preferably held with the whole team present. During these, the team discusses what's going to be done, and what has been done previously, to get an idea of whether whatever has been worked on is going to be done in time. 
+
+Finally, Scrum defines 3 pillars, those being transparency, inspection and adaptation, which are supported by the 5 core values of Scrum:
+
+- Commitment: Everyone puts their all into the project
+- Focus: Everyone focuses on the tasks and goals of the sprint and team
+- Openness: Everyone mutually agrees to be transparent about the circumstances around their tasks
+- Respect: Everyone has mutual respect and trust for each other
+- Courage: Everyone has the courage to make the right decisions and take on any task, no matter how daunting
+
 ### Kanban
 
 ### Lean
 
-### My choice and recommendation
+### My recommendation
 
 ## Sources
 
