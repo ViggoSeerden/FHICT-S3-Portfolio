@@ -57,11 +57,55 @@ Here is a picture of our Jira Backlog from Sprint 3:
 
 ## UI/UX
 
+It's important that we make this application as accessible and user friendly as possible for the best result once it gets incorperated into iO's business, while also making sure it fits their brand identity.
+
 ### UI
 
-I mainly worked on the front-end for this project. While I didn't make the base designs for the applications' different screens, I did translate them into a functional application, while also influencing and altering the existing designs, and taking some creative liberties here and there. The UI is pretty straight forward here. iO provided us with a bunch of branding material which were used to style the application.
+I mainly worked on the front-end for this project. While I didn't make the base designs for the applications' different screens, I did translate them into a functional application, while also influencing and altering the existing designs, and taking some creative liberties here and there. The UI is pretty straight forward here. iO provided us with a bunch of branding material which were used to style the application. Their main colors were orange and blue/purple with white, and after presenting some designs with the colors used in different area's to the stakeholders at iO, this ended up being the final design for the color layout:
+
+<img width="206" alt="io home" src="https://user-images.githubusercontent.com/100349697/206261412-d3d5a1ae-fd46-4db8-b687-bc72d4a14150.png">
+
+The orange was chosen to be the main color in the background, with a white navbar and text, and the purple was used for most buttons.
 
 ### UX
+
+The application consists of three main pages, those being the colleague page, the profile page and the settings page. Navigation is handled by a tab bar on the bottom of the screen, with text and icons to make it clear which button leads to which page. There are some pages hidden under the settings tab, those being the profile settings, notification settings, MAC-address management, and terms & conditions, but these aren't the main focus of the app, hence why they aren't accessible through the tab bar, as it would feel cluttered otherwise.
+
+Several measures were taken to improve the experience within the app. I'll go over a few examples that I am responsible for implementing. First of is the mail verification screen:
+
+<img width="206" alt="io mail confirm" src="https://user-images.githubusercontent.com/100349697/206263859-fa954016-4b1f-43d3-bf54-699b9bf883c6.png">
+
+First of all, it's worth mentioning that the tab bar is not visible on any of the login related pages, as this would remove the need to log into the application, and allow users to see others' locations without sharing their own. However the main focus here is on the input fields and the button at the bottom. The button to submit your input for verification remains disabled until the input is valid, which is visually indicated as well, since the style changes when input is detected: 
+
+<img width="174" alt="io mail confirm input" src="https://user-images.githubusercontent.com/100349697/206264755-dc9e2b70-08f2-40b0-b693-7727e72a3b18.png">
+
+The terms and conditions are also accessible via the link in the checkbox text. This is of the utmost importance, because the user should be aware of how their data is handled. Like mentioned earlier, these terms and conditions can also be found after logging in under the settings page.
+
+More examples can be found on the profile screen:
+
+<img width="206" alt="io profile" src="https://user-images.githubusercontent.com/100349697/206265687-c12ef0c3-3cc5-48e9-b5e0-b3399ea57000.png">
+
+First off, the time selection wheels labeled start and end at the bottom limit your selection based on what time was selected in the opposite input field:
+
+<img width="154" alt="io profile time" src="https://user-images.githubusercontent.com/100349697/206266293-831f431e-ad9b-4592-91c1-de4bd84b8cbe.png">
+
+This was done to avoid any invalid input. However, should invalid input still occur somehow, an error message will be displayed:
+
+<img width="129" alt="io profile error" src="https://user-images.githubusercontent.com/100349697/206266649-88bbfba4-7409-4698-ad30-662f6052c56f.png">
+
+Updating time doesn't happen automatically, so there's a button to do just that. This button remains hidden until you change your time input, but only if the input is valid:
+
+<img width="101" alt="io profile time button" src="https://user-images.githubusercontent.com/100349697/206266980-209aa1f9-7efa-4894-a77d-c8bc64557ef6.png">
+
+Finally, there's the location toggle button:
+
+<img width="129" alt="io profile status button" src="https://user-images.githubusercontent.com/100349697/206267050-08d5f3d7-6761-44b8-ade2-8c3ecaed73e8.png">
+
+It was quite difficult to find the right style to use for this button. We had several other designs for it, which all got some criticism from our stakeholders for not being clear on what option was actually selected, and which one could be pressed. This also sparked some discussion within our team, since we had some conflicting idea's of how it should be done. Since it was my task to fix said button, I did some quick research on toggle buttons of the sort, and quickly found that these types of buttons tend to be a challenge for most people. Eventually, I came up with the design seen above, which everyone agreed upon. This design was inspired by these types of toggles commonly found on iOS devices:
+
+![toggle button inspiration](https://user-images.githubusercontent.com/100349697/206267821-bab000a4-ca2a-4404-b81a-4120bb794c2f.jpg)
+
+Finally, it should be noted that the final design still consists of two seperate buttons right next to each other, instead of one toggle component. The selected option will be disabled, to avoid any duplicate API calls to the back-end.
 
 ## Release Management
 
