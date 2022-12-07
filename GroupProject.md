@@ -59,7 +59,7 @@ Here is a picture of our Jira Backlog from Sprint 3:
 
 ### UI
 
-I was mainly responsible for front-end business, so this was my area of expertise.
+I mainly worked on the front-end for this project. While I didn't make the base designs for the applications' different screens, I did translate them into a functional application, while also influencing and altering the existing designs, and taking some creative liberties here and there. The UI is pretty straight forward here. iO provided us with a bunch of branding material which were used to style the application.
 
 ### UX
 
