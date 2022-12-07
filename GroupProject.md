@@ -13,6 +13,7 @@ Student no. 491216
   - [UI](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#ui)
   - [UX](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#ux)
 - [Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#release-management)
+- [Ethics](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#ethics)
 - [Business Process](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#business-process)
 - [Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#professionalism)
   - [Feedback](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#feedback)
@@ -71,6 +72,8 @@ We made a GitHub repository for both our front- and back-ends. Both have a multi
 Below is a picture of our front-end GitHub repository:
 
 <img width="1049" alt="github gp" src="https://user-images.githubusercontent.com/100349697/203785032-0d4c6c90-3704-4c10-a515-08d7c8e75e30.png">
+
+## Ethics
 
 ## Business Process
 
