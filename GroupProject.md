@@ -103,7 +103,7 @@ Finally, there's the location toggle button:
 
 It was quite difficult to find the right style to use for this button. We had several other designs for it, which all got some criticism from our stakeholders for not being clear on what option was actually selected, and which one could be pressed. This also sparked some discussion within our team, since we had some conflicting idea's of how it should be done. Since it was my task to fix said button, I did some quick research on toggle buttons of the sort, and quickly found that these types of buttons tend to be a challenge for most people. Eventually, I came up with the design seen above, which everyone agreed upon. This design was inspired by these types of toggles commonly found on iOS devices:
 
-![toggle button inspiration](https://user-images.githubusercontent.com/100349697/206267821-bab000a4-ca2a-4404-b81a-4120bb794c2f.jpg)
+<img width="129" alt="io profile status button" src="https://user-images.githubusercontent.com/100349697/206267821-bab000a4-ca2a-4404-b81a-4120bb794c2f.jpg">
 
 Finally, it should be noted that the final design still consists of two seperate buttons right next to each other, instead of one toggle component. The selected option will be disabled, to avoid any duplicate API calls to the back-end.
 
