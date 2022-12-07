@@ -1,4 +1,5 @@
-# FHICT-S3-Portfolio Viggo Seerden
+# FHICT Semester 3 Portfolio
+#### By Viggo Seerden
 This is my portfolio for the third semester of the Fontys HBO ICT Software Course. In here you will find documents explaining what I've done this semester to reach the expected learning outcomes. I've documented everything about my individual project and my contributions to the group project as proof that I have been working towards these learning outcomes, alongside my research reports.
 
 ## Table of Contents
