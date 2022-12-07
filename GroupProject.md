@@ -117,7 +117,23 @@ Below is a picture of our front-end GitHub repository:
 
 ## Ethics
 
+The ethical aspects of your project shouldn't go ignored during development, since in a lot of cases, you're releasing your product for a number of people, big or small, to use. This can include respecting a users privacy and security, properly handling their data and being transparent about your way of doing so, and being considerate of both colleagues and end users.
+
+In the case of this application, we are handling with possibly sensitive user data, including personal info, digital info, and location data which can be automatically determined. At the start of this project, we received a legal document that details several measures that were taken for ethics' sake. Aside from this document, however, we ourselves also had to implement some features that support the morality of handling and exposing the data within the app, which were discussed with our stakeholders.
+
+First of all, like I mentioned under the section about UX, the terms and conditions are accessible both before and after logging into the application. Transparency is important when it comes to handling a potential users' data. These terms and conditions were provided to us by our stakeholders. You will only be able to log in and use the application after accepting these terms and conditions. By doing so, it means agreeing that your location will be visible to your colleagues. Once logged in, you will be able to see the locations of colleagues that also use the apps, and they will be able to see yours too. If you don't want your location to be shared with others, it would be entirely unfair if you could still see theirs, so there is no such option.
+
+Logging into the app is only possible after getting your email verified. This alone doesn't mean much, since everyone can try entering their email address and get it verified, but that wouldn't be safe, since the app is meant only for iO staff to share their location with each other, and no one else outside the company. It's because of this that we've made it so that the email that's entered is checked before sending a verification link. iO has their own email format, that being *staffname@iodigital.com*. If the entered email doesn't have the *@iodigital.com* suffix, it won't receive a verification link, which means you can't advance any further with logging in. However, all this isn't even possible if you don't make it past the first screen of the app. Our app also uses Sign in with Google as an extra layer of security. This will be your method of logging in after registering. 
+
+Finally, each user get's their own unique identification token after registering. This token is used in every API call made, and is checked in the back-end every time before returning any data. This is, again, to prevent unauthorized access to user data. 
+
+(AWS? I hardly knew her)
+
+While our group didn't ever decide we'd commit to any specific list of ethical software development principles, like those by ACM or Adam Scott, we do still abide by a good amount of them. These principles detail aspects like e.g accessibility, privacy and security, and consideration for colleagues and peers. I've already covered privacy and security, but the others shouldn't be ignored. For example: Accessibility. I've already detailed some aspects of the application which do just this under the UX section. Keeping your fellow programmers in mind is also of importance according to these principles, through helping them where neccessary, treating each other with respect, or through the use of features such as documentation and version control. We have made several pieces of documentation for this project, and like mentioned above, we used GitHub as a version control system. Within our team, we all also had to work with each others code at one point or another, so explaining our code to each other where neccessary was done frequently, whether that be through verbal or digital means.
+
 ## Business Process
+
+(Throw something together sooner rather than later, ya punk)
 
 ## Professionalism
 
