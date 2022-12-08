@@ -60,6 +60,6 @@ This is my portfolio for the third semester of the Fontys HBO ICT Software Cours
 
 ## Research Reports
 
-- [Security: Data Protection](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md)
+- [Security: Data Protection](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Data%20Protection.md)
 - [Cultural Differences in Software](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md)
 - [Agile](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md)
