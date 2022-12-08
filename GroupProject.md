@@ -127,13 +127,13 @@ Logging into the app is only possible after getting your email verified. This al
 
 Finally, each user get's their own unique identification token after registering. This token is used in every API call made, and is checked in the back-end every time before returning any data. This is, again, to prevent unauthorized access to user data. 
 
-(AWS? I hardly knew her)
+(AWS WIP)
 
 While our group didn't ever decide we'd commit to any specific list of ethical software development principles, like those by ACM or Adam Scott, we do still abide by a good amount of them. These principles detail aspects like e.g accessibility, privacy and security, and consideration for colleagues and peers. I've already covered privacy and security, but the others shouldn't be ignored. For example: Accessibility. I've already detailed some aspects of the application which do just this under the UX section. Keeping your fellow programmers in mind is also of importance according to these principles, through helping them where neccessary, treating each other with respect, or through the use of features such as documentation and version control. We have made several pieces of documentation for this project, and like mentioned above, we used GitHub as a version control system. Within our team, we all also had to work with each others code at one point or another, so explaining our code to each other where neccessary was done frequently, whether that be through verbal or digital means.
 
 ## Business Process
 
-(Throw something together sooner rather than later, ya punk)
+(WIP)
 
 ## Professionalism
 
