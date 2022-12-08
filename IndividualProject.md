@@ -258,7 +258,9 @@ I chose to use GitHub due to my previous experience in using it during last seme
 
 ### CI/CD
 
-I have created a CI/CD pipeline using GitHub Actions for every repository. Below is an example of the back-end pipeline:
+To automate certain aspects of my application, namely building, testing, and code reviewing, alongside deploying my application to DockerHub, I have created a CI/CD pipeline using GitHub Actions for every repository, which was configured with Configuration as Code. CI/CD stands for continuous integration and continuous delivery and/or continuous deployment. In our case, only continuous integration and delivery were required by the learning outcomes. Continuous deployment means automatically deploying your software to production, which I can't do, due to there being no production to speak of. I'll be using CD to refer to continuous delivery from here on out. The CI part is used for building and testing your application, while the CD part is used for uploading your project to a repository or container registry. In my case, I also used the CI to upload my project to SonarCloud, a static code analysis tool, since the building and testing commands are used during this process. I mentioned that I use DockerHub in the CD part of my pipeline, which means I containerize my app. This means bundling all code and packages together to an easily portable and lightweight container image. 
+
+Below is an example of the back-end pipeline:
 
 ```
 name: CI/CD
