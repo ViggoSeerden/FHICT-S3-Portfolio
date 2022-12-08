@@ -220,7 +220,7 @@ This function is called in the test class' constructor, so the *client* being ca
 
 #### Usability Tests
 
-Still gotta do it to 'em
+WIP
 
 ### Code Analysis
 
