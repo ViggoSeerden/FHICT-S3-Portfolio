@@ -5,7 +5,6 @@ This is my portfolio for the third semester of the Fontys HBO ICT Software Cours
 ### To Do:
 
 - Usability Tests (IP)
-- Ethics/AWS part (GP)
 - Business Processes (GP)
 - Research Report: Data Protection/Security
 
