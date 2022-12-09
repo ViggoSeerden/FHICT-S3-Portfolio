@@ -19,6 +19,8 @@ Data protection is the act of securing any information stored in a location such
 
 ## How can we properly protect data?
 
+(WIP)
+
 There are several ways that a software developer can protect user data stored in a database. I'll go over a few methods here:
 
 ### Encryption
@@ -42,6 +44,8 @@ Finally, I have a few smaller, but effective examples of things that can be done
 It should be noted that software developers and engineers are not the only ones who can take security measures; you can too. There are a few things you can do to protect your accounts. First of all is Two-Factor Authentication, or 2FA for short. 2FA requires you to set an email address or phone number, which gets sent a code during login. You can only continue logging in if you enter the received code on the website or app you're trying to log into. Another way is by clearing cache, to destroy any possible traces of login information, making your login information more complicated, deleting unneccessary accounts, or avoiding public networks, which have less security like a lack of encryption and don't require a password to establish a connection. Someone on the same network can use a program like WireShark to grab data from webrequests. Finally, there are sites like HaveIBeenPwned.com which lets you see if any of your email addresses or phone number have been in a data breach. It shows you the exact site or app that was breached. If you get one or more matches, you can go to those breached accounts and change their info or delete them outright.
 
 ## Conclusion
+
+(WIP)
 
 ## Sources
 
