@@ -139,7 +139,7 @@ Without App:
 
 ![gpbefore](https://user-images.githubusercontent.com/100349697/206727394-f333b034-8468-4e6f-8fea-46f7096928d2.png)
 
-You can immediatly see that there is an relatively big amount of branching paths here, which are all due to a lack of information about the colleague being looked for. Is this person at the office? Where are they? Are they even available, or are they busy? These questions cannot be answered without either asking around, or finding the colleague yourself. With the use of our app, you wouldn't have to ask these questions at all:
+You can immediatly see that there is an relatively big amount of branching paths here, which are all due to a lack of information about the colleague being looked for. Is this person at the office? Where are they? Are they even available, or are they busy? It's incredibly unoptimal for the efficiency of this process to rely on unknown details. These questions cannot be answered without either asking around, or finding the colleague yourself. With the use of our app, you wouldn't have to ask these questions at all:
 
 ![gpafter](https://user-images.githubusercontent.com/100349697/206727412-84af82b4-fb0f-4975-9ec3-3a2e4853ce26.png)
 
