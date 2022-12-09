@@ -23,9 +23,15 @@ There are several ways that a software developer can protect user data stored in
 
 ### Encryption
 
+(WIP)
+
 ### Pseudonymisation
 
+(WIP)
+
 ### Hosting Services
+
+(WIP)
 
 ### Miscellaneous
 
