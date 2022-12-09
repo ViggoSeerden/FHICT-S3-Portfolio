@@ -4,7 +4,7 @@ By Viggo Seerden
 ## Table of Contents
 
 - [Introduction](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#introduction)
-- [What is agile?](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#what-is-agile)
+- [What is agile and why should it be used?](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#what-is-agile-and-why-should-it-be-used)
 - [How can we apply an agile way of working?](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#how-can-we-apply-an-agile-way-of-working)
   - [Scrum](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#scrum)
   - [Kanban](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#kanban) 
@@ -16,7 +16,7 @@ By Viggo Seerden
 
 The software development process can be quite messy. Not having a clear view on what's done, what needs to happen, what needs refinement, who's working on what, and how the smoothly development is progressing can potentially be detrimental to the success of the project. It's because of this that staying organised and informed is a must for everyone working on your project. There are several software development methodologies you can follow during development to keep this organised structure throughout the duration of the project. My goal with this research is to get a better understanding of one of the most prominent methodologies out there: Agile. I do have some prior experience in using it, specifically with an agile framework called Scrum, but I don't have much experience with agile outside of that, not to mention the other agile frameworks out there and how they differ from Scrum. Expanding my knowledge about agile, and some of it's frameworks including Scrum subject may prove useful for future reference.
 
-## What is agile?
+## What is agile and why should it be used?
 
 As mentioned above, agile is one of several software development methodologies. Agile puts a big emphasis on flexibility, as opposed to something like the Waterfall methodology, which has a standard, structured path to follow during development. Other aspects of high importance within agile are communication and efficiency. Agile is best explained by the Agile Manifesto, which defines the following four core values of agile:
 
