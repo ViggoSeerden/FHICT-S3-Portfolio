@@ -133,7 +133,19 @@ While our group didn't ever decide we'd commit to any specific list of ethical s
 
 ## Business Process
 
-(WIP)
+To demonstrate how this application affects an existing business process, I've visualised the same process of finding a colleague if you need help during work twice. One diagram shows how this process would be executed without the use of the app, while the other shows the process with use of the app.
+
+Without App:
+
+![gpbefore](https://user-images.githubusercontent.com/100349697/206727394-f333b034-8468-4e6f-8fea-46f7096928d2.png)
+
+You can immediatly see that there is an relatively big amount of branching paths here, which are all due to a lack of information about the colleague being looked for. Is this person at the office? Where are they? Are they even available, or are they busy? These questions cannot be answered without either asking around, or finding the colleague yourself. With the use of our app, you wouldn't have to ask these questions at all:
+
+![gpafter](https://user-images.githubusercontent.com/100349697/206727412-84af82b4-fb0f-4975-9ec3-3a2e4853ce26.png)
+
+The branching paths are no longer here, and have been replaced by set events. The person who needs help can select a colleague of which their location is known to be at the office. Next, they can immediatly notify someone that they need them. The other person then receives this notification, and can then prepare to help the other colleague, by freeing up some time and wrapping up some other business or putting it on hold. Now when the person looking for help arrives, they can be helped much quicker, without the need to wait. There is always a chance that the helping colleague isn't able to wrap up prior business in time, of course, but the chance of the wait time decreasing is significantly higher than without the app. 
+
+This process was made assuming that the app only has the minimal expected features from our stakeholders. Parts of the processes like finding the colleague would be even faster if the app could display the exact floor or room someone is in, and selecting a colleague for help would be more optimal if the app could show whether the other person is available or busy. 
 
 ## Professionalism
 
