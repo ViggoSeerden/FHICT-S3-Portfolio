@@ -56,7 +56,7 @@ This is my portfolio for the third semester of the Fontys HBO ICT Software Cours
 ### 7. You analyze and describe simple business processes that are related to your project.
 #### Proof:
 - [Individual Project: Business Process](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#business-process)
-- [Group Project: Business Process](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#business-process)
+- [Group Project: Business Processes](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#business-processes)
 
 ### 8. You act in a professional manner during software development and learning.
 ##### Proof:
