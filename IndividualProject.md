@@ -420,7 +420,7 @@ I'd like to reflect on some decisions I've made throughout the duration of this 
 
 Another point of, for lack of a better term, regret, is that I feel like I got a bit too much help from classmates, specifically for setting the CI/CD. I had the whole CI/CD process set up for my front-end before really knowing what it all meant. Had I done more of my own research, it would've taken longer for sure, but I also would've had a way better understanding of it all.
 
-Finally, asking for feedback from the teachers a bit more frequently would've been favorable too. I also received this as feedback from Jean-Paul.
+Finally, asking for feedback from the teachers a bit more frequently would've been favorable too. I also received this as feedback from Jean-Paul. I was also recommended to show my work more while it's still a work in progress, instead of only showing things I considered done. It was kind of hard to get myself to actually do that though, due to a feeling that it would be deemed as not being enough.
 
 Despite all of this, though, I can't say I'm dissapointed in what I was able to achieve. Game development is something I wanted to learn regardless of my choice of specialisation for semester 4 (which ended up being smart mobile), so getting to do it for a school project was an extra source of motivation to actually do it, even if it did cause some problems. Aside from that, learning how to create an API was fun, and setting up the CI/CD process was interesting and usefull too. UI/UX and some parts of quality assurance were fun to do too. I also think I did a good job keeping my portfolio up to date, once I'd created it. I'm pretty proud of what I did this semester overall.
 
