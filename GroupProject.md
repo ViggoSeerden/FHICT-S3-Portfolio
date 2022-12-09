@@ -14,7 +14,7 @@ Student no. 491216
   - [UX](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#ux)
 - [Release Management](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#release-management)
 - [Ethics](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#ethics)
-- [Business Process](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#business-process)
+- [Business Processes](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#business-processes)
 - [Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#professionalism)
 
 ## Project Description
@@ -131,7 +131,7 @@ Finally, this app is linked to iO's AWS application hosting environment, which c
 
 While our group didn't ever decide we'd commit to any specific list of ethical software development principles, like those by ACM or Adam Scott, we do still abide by a good amount of them. These principles detail aspects like e.g accessibility, privacy and security, and consideration for colleagues and peers. I've already covered privacy and security, but the others shouldn't be ignored. For example: Accessibility. I've already detailed some aspects of the application which do just this under the UX section. Keeping your fellow programmers in mind is also of importance according to these principles, through helping them where neccessary, treating each other with respect, or through the use of features such as documentation and version control. We have made several pieces of documentation for this project, and like mentioned above, we used GitHub as a version control system. Within our team, we all also had to work with each others code at one point or another, so explaining our code to each other where neccessary was done frequently, whether that be through verbal or digital means.
 
-## Business Process
+## Business Processes
 
 To demonstrate how this application affects an existing business process, I've visualised the same process of finding a colleague if you need help during work twice. One diagram shows how this process would be executed without the use of the app, while the other shows the process with use of the app.
 
