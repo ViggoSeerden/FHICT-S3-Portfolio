@@ -11,12 +11,35 @@ By Viggo Seerden
 
 ## Introduction
 
-
+Privacy and security are both big parts of todays world that go hand-in-hand together. Applications, websites, and other can sometimes require users to enter personal data to progress. This can be anything from something as trivial as a username or as sensitive as creditcard details. Anyone would be cautious if asked to just enter something valuable that you would normally take to your grave, so it's of extreme importance to make sure no one can access this data. The data does have to be stored somewhere after all, like in a database, but this alone doesn't mean much, since others can still look at what's inside of said database. It's with this research that I want to find out how to properly protect user data.
 
 ## What is data protection and why does it matter?
 
+Data protection is the act of securing any information stored in a location such as a database. These databases are usually remotely accessible, which means it can in theory be accessed from any device with an internet connection. This can be a scary thought for some people who have sensitive data stored in one. There are several examples of huge data leaks that have happened which exposed all kinds of data to people with bad motives from sites like FaceBook, Twitter and LinkedIn, but also from other apps and platforms like Zoom and PlayStation Network. These sites can all store sensitive information about their users like full names, pictures, addresses and payment details. However it's not just big data leaks, because hackers can also break into targeted individuals' accounts. 
+
 ## How can we properly protect data?
+
+There are several ways that a software developer can protect user data stored in a database. I'll go over a few methods here:
+
+### Encryption
+
+### Pseudonymisation
+
+### Hosting Services
+
+### Miscellaneous
+
+Finally, I have a few smaller, but effective examples of things that can be done to prevent any data from leaking. The first being locking your databases behind authentication and/or authorization. This speaks for itself; having to log in with an eligeble account to (request) access to the data. You should keep in mind that authentication also requires the accounts to be stored somewhere too, though. Another way is through backups. Should a nefarious person access your database, and decide to wipe the whole thing, or delete chunks of it, having a backup can save you a lot of trouble. Another thing to do is to delete any data you don't need anymore. It's easy to just forget about this, but if you don't need a piece of data anymore from a user, then you shouldn't have that data. And last but not least: Removing logging. During development, an easy way to test the connection to a database is to log the received data in a console. I know this, since I've done it myself quite often, and this too is easy to forget about. If all it takes to see your data is pressing the F12 key, you should really take a step back and fix this. 
+
+### Protection on the users end
+
+It should be noted that software developers and engineers are not the only ones who can take security measures; you can too. There are a few things you can do to protect your accounts. First of all is Two-Factor Authentication, or 2FA for short. 2FA requires you to set an email address or phone number, which gets sent a code during login. You can only continue logging in if you enter the received code on the website or app you're trying to log into. Another way is by clearing cache, to destroy any possible traces of login information, making your login information more complicated, deleting unneccessary accounts, or avoiding public networks, which have less security like a lack of encryption and don't require a password to establish a connection. Someone on the same network can use a program like WireShark to grab data from webrequests. Finally, there are sites like HaveIBeenPwned.com which lets you see if any of your email addresses or phone number have been in a data breach. It shows you the exact site or app that was breached. If you get one or more matches, you can go to those breached accounts and change their info or delete them outright.
 
 ## Conclusion
 
 ## Sources
+
+- [Data Protection Practices(GDPR Informer)](https://gdprinformer.com/gdpr-articles/6-essential-data-protection-methods)
+- [Data Protection Practices(Meta/FaceBook Developers)](https://developers.facebook.com/docs/development/data-security)
+- [Account Security Measures You Can Take (LiveLearn)](https://livelearn.ca/article/digital-citizenship/5-easy-things-you-can-do-now-to-keep-your-accounts-secure/)
+- [HaveIBeenPwned](https://haveibeenpwned.com/)
