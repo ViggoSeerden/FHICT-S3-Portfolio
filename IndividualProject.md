@@ -13,7 +13,7 @@ Student no. 491216
     - [Database & Persistence](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#database--persistence) 
 - [Documentation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#documentation)
   - [User Stories](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#user-stories)
-    - [Prioritisation](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#prioritisation)    
+    - [Prioritization](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#prioritization)    
   - [C4 Model](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#c4-model)
 - [UI/UX](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#uiux)
   - [UI](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/IndividualProject.md#ui)
@@ -122,7 +122,7 @@ To keep track of the progression of the user stories listed above, as well as ot
 
 Sadly, I wasn't able to actually implement as many user stories as I'd hoped due to time constraints, but at least the core is there.
 
-#### Prioritisation
+#### Prioritization
 I have prioritized these user stories based on urgency and neccessity using the MoSCoW method:
 
 | Must Have  | Should Have | Could Have | Won't Have |
