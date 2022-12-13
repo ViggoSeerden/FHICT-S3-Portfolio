@@ -220,7 +220,58 @@ This function is called in the test class' constructor, so the *client* being ca
 
 #### Usability Tests
 
-WIP
+I had a handful of people perform a few simple navigation tests to ensure that my application is generally easy to use, while also asking about the sites style. Below is a list of questions (and answers) I asked the testers, which they would then answer by doing what they think should be done to achieve what I had in mind:
+
+1. Q: How would you go about registering a new account?
+
+   A: "Log in with Google" button on navbar, followed by entering a username to complete the process.
+2. Q: Where would you go to learn about the website and game?
+   
+   A: "About" page via navbar
+3. Q: What would you do to read the latest annoucnement or update about the game?
+   
+   A: "News" page via navbar, followed by opening the first listed article
+4. Q: Where would you to play the game?
+   
+   A: "Game" page via navbar
+5. Q: How would you lower the volume on of the game (without using a keyboard or the taskbar)?
+   
+   A: Using the volume slider on the bottom of the game page
+6. Q: How would you maximize the game screen size?
+   
+   A: Using the fullscreen button on the bottom of the game page
+7. Q: How would you exit fullscreen mode?
+   
+   A: Using the escape key
+8. Q: How would you lock your mouse cursor to the game?
+   
+   A: Using the cursor lock button on the bottom of the game page
+9. Q: How would you unlock your mouse cursor?
+   
+   A: Using the escape key
+10. Q: How would you try going back to the homepage?
+   
+    A: Clicking the logo on the navbar
+11. Q: Where would you go to log out?
+   
+    A: Hovering over your username on the navbar, then clicking "Sign Out"
+
+Navigating went fine for the most part, and the style was generally liked too. There were a few minor things that prevented a few steps from going as smoothly as hoped:
+
+1. Unlocking the cursor with escape wasn't very clear, as the default browser popup can blend in with the browser header on darker themes.
+2. The text in the logo isn't clearly clickable, which made going back to the homepage less clear.
+3. News articles are displayed as cards until clicked, however only the rightmost part of these cards is clickable, which isn't clear.
+4. The link "Game" in the navbar wasn't clear enough to lead to the page where the game can actually be played. "Play Game" was recommended.
+5. Options on the bottom of the game page can easily be missed, since they are just out of frame.
+
+Other points of feedback for both style and usability are:
+
+6. A "Play Game" button on the homepage for quick access.
+7. Don't have buttons using the default HTML style
+8. Fixing some styling inconsistencies, such as the line under the navbar and the table of contents containers 
+9. Adding an "active" state to the navbar links for when you are on said page
+
+Some of these points were mentioned multiple times by different testers, so I mainly focussed on those. After addressing these points and showing the changed aspects of the site, they were satisfied.
 
 ### Code Analysis
 
