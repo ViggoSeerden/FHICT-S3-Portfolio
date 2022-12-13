@@ -35,7 +35,7 @@ It should be noted that software developers and engineers are not the only ones 
 
 ## Conclusion
 
-(WIP)
+Data protection is an important part of securing your application or website.
 
 ## Sources
 
