@@ -19,29 +19,15 @@ Data protection is the act of securing any information stored in a location such
 
 ## How can we properly protect data?
 
-(WIP)
+There are several ways that a software developer can protect user data stored in a database. I'll go over a few methods here.
 
-There are several ways that a software developer can protect user data stored in a database. I'll go over a few methods here:
+First of all: Authentication and authorization. Authentication means locking data behind, for example, an account, which requires logging into before being able to access your data. Having a login system on your website is the most common way of going about this. Allowing every user to create their own account with their own unique data also means preventing other users from accessing your data. Of course, someone might get into an unsuspecting users account somehow, but thats where authorization comes in. This means performing an extra check to see if it really is an accounts rightful owner trying to log in, and not some random other person. This is nowadays commonly done through Two-Factor Authentication, or 2FA for short. After logging in, 2FA sends the linked account a confirmation code, usually via phone or mail, which is then entered in the website or app to continue. A system like this can be created from scratch, but personally I'd use an existing one like Sign in with Google. Aside from general accounts available to the public, locking access to your database from some management tool behind an authentication system is also a good idea. This means having to authenticate yourself to access the database tables, and thus the data stored within. 
 
-### Encryption
+If someone is able to break into your databases somehow anyway, enabling something like encryption is another way to stop someone from unauthorized access. Encryption means encoding the data to something uncomprehensible to humans using an algorithm. Take for example a password. If encryption is applied, a password like "thisismypassword" can be converted to any random combination of characters. This gibberish can then be stored directly into a database. Encrypted data can also be used while making API calls, so that anyone wiretapping your internet won't be able to make out any data from the requests and responses sent. The only way to decrypt it is through a decryption key, which pretty much means running the algorithm in reverse. Other methods that can be used to achieve this include pseudonymisation, anonymisation, suppression and generalization. Pseodonymisation means processing data in a way that makes it unable to be linked to a data subject without additional information. Anonymisation is the irreversible deletion of parts of data which could be used to identify a data subject. Suppression is censoring data in a literal sense, as in replacing (parts of) the data with a certain character like in a password input box. Finally, generalization is making data more vague, by increasing the amount of possible correct ways to interpret it. For example, storing someones age of 25 as "20-30" or "20 < Age < 30".
 
-(WIP)
+Finally, I have a few smaller, but effective examples of things that can be done to prevent any data from leaking. The first being through backups. Should a nefarious person access your database, and decide to wipe the whole thing, or delete chunks of it, having a backup can save you a lot of trouble. Another thing to do is to delete any data you don't need anymore. It's easy to just forget about this, but if you don't need a piece of data anymore from a user, then you shouldn't have that data. And last but not least: Removing logging. During development, an easy way to test the connection to a database is to log the received data in a console. I know this, since I've done it myself quite often, and this too is easy to forget about. If all it takes to see your data is pressing the F12 key, you should really take a step back and fix this. 
 
-### Pseudonymisation
-
-(WIP)
-
-### Hosting Services
-
-(WIP)
-
-### Miscellaneous
-
-Finally, I have a few smaller, but effective examples of things that can be done to prevent any data from leaking. The first being locking your databases behind authentication and/or authorization. This speaks for itself; having to log in with an eligeble account to (request) access to the data. You should keep in mind that authentication also requires the accounts to be stored somewhere too, though. Another way is through backups. Should a nefarious person access your database, and decide to wipe the whole thing, or delete chunks of it, having a backup can save you a lot of trouble. Another thing to do is to delete any data you don't need anymore. It's easy to just forget about this, but if you don't need a piece of data anymore from a user, then you shouldn't have that data. And last but not least: Removing logging. During development, an easy way to test the connection to a database is to log the received data in a console. I know this, since I've done it myself quite often, and this too is easy to forget about. If all it takes to see your data is pressing the F12 key, you should really take a step back and fix this. 
-
-### Protection on the users end
-
-It should be noted that software developers and engineers are not the only ones who can take security measures; you can too. There are a few things you can do to protect your accounts. First of all is Two-Factor Authentication, or 2FA for short. 2FA requires you to set an email address or phone number, which gets sent a code during login. You can only continue logging in if you enter the received code on the website or app you're trying to log into. Another way is by clearing cache, to destroy any possible traces of login information, making your login information more complicated, deleting unneccessary accounts, or avoiding public networks, which have less security like a lack of encryption and don't require a password to establish a connection. Someone on the same network can use a program like WireShark to grab data from webrequests. Finally, there are sites like HaveIBeenPwned.com which lets you see if any of your email addresses or phone number have been in a data breach. It shows you the exact site or app that was breached. If you get one or more matches, you can go to those breached accounts and change their info or delete them outright.
+It should be noted that software developers and engineers are not the only ones who can take security measures; you can too. There are a few things you can do to protect your accounts. First of all is by clearing cache, to destroy any possible traces of login information, or by making your login information more complicated, deleting unneccessary accounts, or avoiding public networks, which have less security like a lack of encryption and don't require a password to establish a connection. Someone on the same network can use a program like WireShark to grab data from webrequests. Finally, there are sites like HaveIBeenPwned.com which lets you see if any of your email addresses or phone number have been in a data breach. It shows you the exact site or app that was breached. If you get one or more matches, you can go to those breached accounts and change their info or delete them outright.
 
 ## Conclusion
 
@@ -51,5 +37,6 @@ It should be noted that software developers and engineers are not the only ones 
 
 - [Data Protection Practices(GDPR Informer)](https://gdprinformer.com/gdpr-articles/6-essential-data-protection-methods)
 - [Data Protection Practices(Meta/FaceBook Developers)](https://developers.facebook.com/docs/development/data-security)
+- [Data Censoring Types (TeskaLabs)](https://teskalabs.com/blog/data-privacy-pseudonymization-anonymization-encryption)
 - [Account Security Measures You Can Take (LiveLearn)](https://livelearn.ca/article/digital-citizenship/5-easy-things-you-can-do-now-to-keep-your-accounts-secure/)
 - [HaveIBeenPwned](https://haveibeenpwned.com/)
