@@ -11,7 +11,7 @@ By Viggo Seerden
 
 ## Introduction
 
-Privacy and security are both big parts of todays world that go hand-in-hand together. Applications, websites, and other can sometimes require users to enter personal data to progress. This can be anything from something as trivial as a username or as sensitive as creditcard details. Anyone would be cautious if asked to just enter something valuable that you would normally take to your grave, so it's of extreme importance to make sure no one can access this data. The data does have to be stored somewhere after all, like in a database, but this alone doesn't mean much, since others can still look at what's inside of said database. It's with this research that I want to find out how to properly protect user data.
+Privacy and security are both big parts of todays world that go hand-in-hand together. Applications, websites, and other can sometimes require users to enter personal data to progress. This can be anything from something as trivial as a username or as sensitive as creditcard details. Anyone would be cautious if asked to just enter something valuable that you would normally take to your grave, so it's of extreme importance to make sure no one can access this data. The data does have to be stored somewhere after all, like in a database, but this alone doesn't mean much, since others can still look at what's inside of said database. **It's with this research that I want to find out how to properly protect user data**.
 
 ## What is data protection and why does it matter?
 
