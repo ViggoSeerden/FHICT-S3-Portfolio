@@ -9,6 +9,7 @@ By Viggo Seerden
 - [How can we work optimally with these differences in mind?](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md#how-can-we-work-optimally-with-these-differences-in-mind)
 - [Conclusion](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md#conclusion)
 - [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md#sources)
+- [Research Methods](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Cultural%20Differences.md#research-methods)
 
 ## Introduction
 
@@ -50,3 +51,11 @@ In the introduction, I mentioned that I wanted to find out what impact cultural 
 - [The Effect of Cultural Differences on Software Development (PDF)](http://cit.mak.ac.ug/iccir/downloads/ICCIR_09/D%20Patel,%20C%20Lawson-Johnson%20&%20S%20Patel_09.pdf) by D. Patel, S. Patel & C. Lawson-Johnson
 - Hofstede's Cultural Dimensions Theory on [Wikipedia](https://en.wikipedia.org/wiki/Hofstede%27s_cultural_dimensions_theory#:~:text=The%20original%20theory%20proposed%20four,orientation%20versus%20person%2Dorientation) and [SimplyPsychology](https://www.simplypsychology.org/hofstedes-cultural-dimensions-theory.html)
 - [This article on Relevant](https://relevant.software/blog/6-best-practices-to-overcome-cultural-differences-in-offshore-software-development/) by Andrew Burak
+
+## Research Methods
+
+Methods taken from [ictresearchmethods.nl/Methods](https://ictresearchmethods.nl/Methods)
+
+- Ethical Check: Finding out what should be done to avoid any culture-related conflict during the development process. 
+- Best good and bad practices: What are the proper principles to apply when working with people from different cultures, and what to avoid.
+- Literature Study: General research and finding proper sources, and making decisions on whether or not to include any information in this report.
