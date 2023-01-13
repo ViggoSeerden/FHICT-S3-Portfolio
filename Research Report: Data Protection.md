@@ -8,6 +8,7 @@ By Viggo Seerden
 - [How can we properly protect data?](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Data%20Protection.md#how-can-we-properly-protect-data)
 - [Conclusion](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Data%20Protection.md#conclusion)
 - [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Data%20Protection.md#sources)
+- [Research Methods](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Data%20Protection.md#research-methods)
 
 ## Introduction
 
@@ -44,3 +45,13 @@ Data protection is an important part of securing your application or website. Th
 - [Data Censoring Types (TeskaLabs)](https://teskalabs.com/blog/data-privacy-pseudonymization-anonymization-encryption)
 - [Account Security Measures You Can Take (LiveLearn)](https://livelearn.ca/article/digital-citizenship/5-easy-things-you-can-do-now-to-keep-your-accounts-secure/)
 - [HaveIBeenPwned](https://haveibeenpwned.com/)
+
+## Research Methods
+
+Methods taken from [ictresearchmethods.nl/Methods](https://ictresearchmethods.nl/Methods)
+
+- Available Product Analysis: What do other products on the market do to protect user data.
+- Guideline Conformity Analysis: Finding out what rules, laws and other guidelines exist that relate to software privacy and security.
+- Community Research: What other developers have done to protect user data.
+- Best good and bad practices: What should be done to ensure user data is properly protected.
+- Literature Study: General research and finding proper sources, and making decisions on whether or not to include any information in this report.
