@@ -11,6 +11,7 @@ By Viggo Seerden
   - [Lean Software Development](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#lean-software-development)
 - [Conclusion](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#conclusion)
 - [Sources](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#sources)
+- [Research Methods](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/Research%20Report:%20Agile.md#research-methods)
 
 ## Introduction
 
@@ -123,3 +124,11 @@ So, I found that agile mainly focusses on flexibility and communication, and it 
 - [Lean Software Development Guide (Railsware)](https://railsware.com/blog/lean-software-development-guide/#Lean_software_development_tools_and_processes)
 - [The 5 Lean Principles (BureauTromp)](https://bureautromp.nl/5-principes-lean/)
 - [Lean vs. Scrum (MondayBlog)](https://monday.com/blog/project-management/lean-vs-scrum/)
+
+## Research Methods
+
+Methods taken from [ictresearchmethods.nl/Methods](https://ictresearchmethods.nl/Methods)
+
+- Design Pattern Research: How these agile software development frameworks can affect the quality of the final product, and the general workflow.
+- Best good and bad practices: What are the proper principles to apply when using a specific agile framework.
+- Literature Study: General research and finding proper sources, and making decisions on whether or not to include any information in this report.
