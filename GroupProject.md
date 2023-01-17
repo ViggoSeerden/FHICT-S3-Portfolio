@@ -16,6 +16,8 @@ Student no. 491216
 - [Ethics](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#ethics)
 - [Business Processes](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#business-processes)
 - [Professionalism](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#professionalism)
+  - [Feedpulse](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#feedpulse)
+  - [Reflection](https://github.com/ViggoSeerden/FHICT-S3-Portfolio/blob/main/GroupProject.md#reflection)
 
 ## Project Description
 
@@ -149,6 +151,8 @@ This process was made assuming that the app only has the minimal expected featur
 
 ## Professionalism
 
+### Feedpulse
+
 Throughout the semester, students are expected to show the teachers their work and ask for feedback on what they've made. Students can, of course, also reach out to teachers when a question arises. No matter the outcome or conclusion of one of these conversations, it's important to document them using Feedpulse on Canvas for possible future reference. This process is also one of the eight learning outcomes. I've shown my work on several occasions to the teachers, and have documented these conversations like expected. For the group project, we also have group and peer feedback, which are usually done at the end of a sprint. Finally, and probably most importantly for the group project, we also need to have frequent contact with the project stakeholder, in our case the people from iO. Like mentioned above, this was mainly done via Jira in the comments of issues, but also during our sprint retrospectives at iO's offices in Eindhoven.
 
 An example of feedpulse from a GP product can be found here:
@@ -156,3 +160,13 @@ An example of feedpulse from a GP product can be found here:
 <img width="641" alt="feedpulse GP" src="https://user-images.githubusercontent.com/100349697/203783530-ef620494-098b-411d-ae08-c07e1ca8c157.png">
 
 More examples of this can be found on Canvas.
+
+### Reflection
+
+Overall, I think the group project went by quite smoothly. I'm satisfied with what me and my groupmates were able to achieve. The project itself was interesting and came with some intriguing challenges. 
+
+The collaboration between our group and the stakeholders was good overall, however not without it's faults. At first, our group wasn't asking enough questions and feedback to our stakeholders through Jira. They mentioned this during the first sprint's presentation, after which we improved upon this by involving the stakeholders with decisions and development more frequently. The collaboration within our group has also been good. We never really got into any heated arguing, and the discussions that did rise were 'solved' relatively fast. We did have a few days where we could've been a bit more productive, however. At first, we also didn't always do daily stand-ups either, which goes against the agile/Scrum practices, which we were using during development. We also started doing this daily after some reflection. 
+
+We also had some minor troubles using tools during development, but the ones of note are Jira and GitHub. With GitHub, we've had several times where we ran into some merge conflicts due to a lack of communication about what was pushed to what branches and what not. There was really only one time that the consequences of this were bigger than optimal, but it always turned out fine in the end. I've already mentioned communication with stakeholders on Jira, but aside from that, we also didn't properly use Jira at first. Our stakeholders put us on the right track by suggesting we make issue names more clear, using Jira Epics, and adding acceptation criteria to issues, which all helped us improve. Finally, we tried to use burndown charts to see how our progression has been throughout the sprints, by using time and issue count as a point of measurement. These burndown charts usually came out looking abnormal, because we on several occasions added new issues to sprints of changed the expected amount of time an issue would take. This took us some time to get right, but the final burndown chart came out looking as it's supposed to, so we also managed to improve upon that.
+
+So we were able to fix any issues we faced during the project, by accepting feedback and reflecting, and in the end, we cleaned up our act quite nicely. Again, personally, I'm satisfied with how the project ended. 
